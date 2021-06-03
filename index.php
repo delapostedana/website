@@ -20,7 +20,7 @@
     <!-- Libs CSS
     ============================================ -->
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
-    <!-- <link href="css/font-awesome/font-awesome.min.css" rel="stylesheet"> -->
+    <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="vendor/fontawesome/css/all.css" rel="stylesheet">
     <link href="js/datetimepicker/bootstrap-datetimepicker.min.css" rel="stylesheet">
     <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
@@ -29,8 +29,6 @@
     <link href="js/minicolors/miniColors.css" rel="stylesheet">
 
     <link href="js/pe-icon-7-stroke/css/pe-icon-7-stroke.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
 
     <!-- Theme CSS
@@ -49,9 +47,8 @@
 
 
     <!-- carousel -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
 
 
     <!-- Google web fonts
@@ -64,8 +61,8 @@
     </style>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
 <script src="https://kit.fontawesome.com/293cfea4f1.js" crossorigin="anonymous"></script>
 
 
@@ -99,10 +96,12 @@
             <div class="header-middle hidden-compact">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                            <div class="logo">
-                                <a href="index.php"><img src="image/logo.png" title="PT. Roda Rollen Indonesia"
-                                        alt="PT. Roda Rollen Indonesia" /></a>
+                        <div class="bg-info col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <div class="logo ">
+                                <h4>LOGO</h4>
+                                <!-- <a href="index.php"> 
+                                    <img src="image/logo.png" title="PT. Roda Rollen Indonesia" alt="PT. Roda Rollen Indonesia" />
+                                    </a> -->
                             </div>
                         </div>
                         <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 middle-right hidden-xs">
@@ -139,7 +138,7 @@
 
 
 
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 pr-0">
                             <div class="menu-vertical-w">
                                 <div class="responsive so-megamenu megamenu-style-dev ">
                                     <div class="so-vertical-menu ">
@@ -1433,7 +1432,7 @@
                                   <span class="sr-only">Previous</span>
                                 </a>
                                 <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                  <i class="glyphicon glyphicon-chevron-right" aria-hidden="true"></i>
                                   <span class="sr-only">Next</span>
                                 </a>
                               </div>
@@ -1444,7 +1443,7 @@
                         <div class="row">
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-margin1">
                                 <div class="icon-service">
-                                    <div class="icon"><i class="fas fa-camera"></i></div>
+                                    <div class="icon"><i class="pe-7s-keypad">&nbsp;</i></div>
                                     <div class="text">
                                         <h6>One-Stop Solution</h6>
                                         <p class="no-margin">A wide range of high quality products</p>
@@ -1479,601 +1478,605 @@
         <!-- //Main Container -->
 
         <footer class="footer-container typefooter-2">
-            <div class="container">
-                <div class="row footer-middle">
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-style">
-                        <div class="box-footer box-infos">
-                            <div class="module">
-                                <h3 class="modtitle">Sales & Showroom</h3>
-                                <div class="modcontent">
-                                    <ul class="list-icon">
-                                        <li><span class="icon pe-7s-map-marker"></span>Komplek Pertokoan Glodok Jaya No.
-                                            30, Mangga Besar, Taman Sari, Jakarta Barat, 11180 <br>
-                                            <a style="color:#ccc;"
-                                                href="https://www.google.com/maps/place/Roda+Rollen+Indonesia.+PT,+Kompleks+Pertokoan+Glodok+Jaya+Ruko+no.+30,+RT.1%2FRW.6,+Mangga+Besar,+Kec.+Taman+Sari,+Kota+Jakarta+Barat,+Daerah+Khusus+Ibukota+Jakarta+11180/@-6.14427,106.8171776,19z/data=!4m2!3m1!1s0x2e69f7f0cd8d1ef9:0x4792d179af90ed3b"
-                                                target="_blank">view on map</a></li>
-                                        <li><span class="icon pe-7s-call"></span>
-                                            Phone: <a href="tel:+62216003131">(021) 6003131-38</a>
-                                            <br>
-                                            Fax: (021) 6003130
-                                        </li>
-                                        <li><span class="icon pe-7s-mail"></span><a
-                                                href="mailto:sales@rodarollenindonesia.com">sales@rodarollenindonesia.com</a>
-                                        </li>
-                                        <li><span class="icon pe-7s-chat"></span><a href="https://wa.me/628388268826"
-                                                target="_blank">Chat via WhatsApp</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <hr class="spacer s visible-xs">
+
+    
+
+    <div class="container">
+
+        <div class="row footer-middle">
+
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-style">
+
+                <div class="box-footer box-infos">
+
+                    <div class="module">
+    <h3 class="modtitle">Sales &amp; Showroom</h3>
+    <div class="modcontent">
+        <ul class="list-icon">
+            <li><span class="icon pe-7s-map-marker"></span>Komplek Pertokoan Glodok Jaya No. 30, Mangga Besar, Taman Sari, Jakarta Barat, 11180 <br>
+             <a style="color:#ccc;" href="https://www.google.com/maps/place/Roda+Rollen+Indonesia.+PT,+Kompleks+Pertokoan+Glodok+Jaya+Ruko+no.+30,+RT.1%2FRW.6,+Mangga+Besar,+Kec.+Taman+Sari,+Kota+Jakarta+Barat,+Daerah+Khusus+Ibukota+Jakarta+11180/@-6.14427,106.8171776,19z/data=!4m2!3m1!1s0x2e69f7f0cd8d1ef9:0x4792d179af90ed3b" target="_blank">view on map</a></li>
+            <li><span class="icon pe-7s-call"></span>
+                Phone: <a href="tel:+62216003131">(021) 6003131-38</a>
+                <br>
+                Fax: (021) 6003130
+            </li>
+            <li><span class="icon pe-7s-mail"></span><a href="mailto:sales@rodarollenindonesia.com">sales@rodarollenindonesia.com</a></li>
+            <li><span class="icon pe-7s-chat"></span><a href="https://wa.me/628388268826" target="_blank">Chat via WhatsApp</a></li>
+        </ul>
+    </div>
+</div>
+                    <hr class="spacer s visible-xs">
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-style">
+
+                <div class="box-footer box-infos">
+
+                    <div class="module">
+    <h3 class="modtitle">Office</h3>
+    <div class="modcontent">
+        <ul class="list-icon">
+            <li><span class="icon pe-7s-map-marker"></span>Jl Krekot Bunder IV No. 133, Pasar Baru, Sawah Besar, Jakarta Pusat, 10710 <br>
+             <a style="color:#ccc;" href="https://www.google.com/maps/place/Roda+Rollen+Indonesia.+PT,+Jl.+Krekot+Bunder+IV+No.133,+RT.8%2FRW.6,+Ps.+Baru,+Kecamatan+Sawah+Besar,+Kota+Jakarta+Pusat,+Daerah+Khusus+Ibukota+Jakarta+10710/@-6.1597182,106.8307865,17z/data=!4m2!3m1!1s0x2e69f5c4a1b03f83:0xd28ed82e8d03feb6" target="_blank">view on map</a></li>
+            <li><span class="icon pe-7s-call"></span>
+                Phone: <a href="tel:+62213805859">(021) 3805859</a> - <a href="tel:+62213805880">3805880</a>
+                <br>
+                Fax: (021) 3508976
+            </li>
+            <li><span class="icon pe-7s-mail"></span><a href="mailto:info@rodarollenindonesia.com">info@rodarollenindonesia.com</a></li>
+        </ul>
+    </div>
+</div>
+                    <hr class="spacer s visible-xs">
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 col-style">
+
+                <div class="box-information box-footer">
+
+                    <div class="module clearfix">
+
+                        <h3 class="modtitle">Brands</h3>
+
+                        <div class="modcontent">
+
+                            <ul class="menu">
+
+                                <li><a href="browse.php?brand=yuema#start">Yuema</a></li>
+
+                                <li><a href="browse.php?brand=transmax#start">Transmax</a></li>
+
+                                <li><a href="browse.php?brand=revco#start">Revco</a></li>
+
+                                <li><a href="browse.php?brand=southern-cross#start">Southern Cross</a></li>
+
+                                <li><a href="browse.php?brand=oriental-koshin#start">Koshin</a></li>
+
+                                <li><a href="browse.php?brand=elektrim-cantoni#start">Elektrim Cantoni</a></li>
+
+                            </ul>
+
                         </div>
+
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-style">
-                        <div class="box-footer box-infos">
-                            <div class="module">
-                                <h3 class="modtitle">Office</h3>
-                                <div class="modcontent">
-                                    <ul class="list-icon">
-                                        <li><span class="icon pe-7s-map-marker"></span>Jl Krekot Bunder IV No. 133,
-                                            Pasar Baru, Sawah Besar, Jakarta Pusat, 10710 <br>
-                                            <a style="color:#ccc;"
-                                                href="https://www.google.com/maps/place/Roda+Rollen+Indonesia.+PT,+Jl.+Krekot+Bunder+IV+No.133,+RT.8%2FRW.6,+Ps.+Baru,+Kecamatan+Sawah+Besar,+Kota+Jakarta+Pusat,+Daerah+Khusus+Ibukota+Jakarta+10710/@-6.1597182,106.8307865,17z/data=!4m2!3m1!1s0x2e69f5c4a1b03f83:0xd28ed82e8d03feb6"
-                                                target="_blank">view on map</a></li>
-                                        <li><span class="icon pe-7s-call"></span>
-                                            Phone: <a href="tel:+62213805859">(021) 3805859</a> - <a
-                                                href="tel:+62213805880">3805880</a></a>
-                                            <br>
-                                            Fax: (021) 3508976
-                                        </li>
-                                        <li><span class="icon pe-7s-mail"></span><a
-                                                href="mailto:info@rodarollenindonesia.com">info@rodarollenindonesia.com</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <hr class="spacer s visible-xs">
+
+                    <hr class="spacer s visible-xs">
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 col-style">
+
+                <div class="box-information box-footer">
+
+                    <div class="module clearfix">
+
+                        <h3 class="modtitle">Categories</h3>
+
+                        <div class="modcontent">
+
+                            <ul class="menu">
+
+                                
+                                
+                                    <li><a href="browse.php?c=1#start">Electric Motors</a></li>
+
+                                
+                                    <li><a href="browse.php?c=2#start">Gear Reducers</a></li>
+
+                                
+                                    <li><a href="browse.php?c=5#start">Pumps</a></li>
+
+                                
+                                    <li><a href="browse.php?c=4#start">Handling Equipments</a></li>
+
+                                
+                                    <li><a href="browse.php?c=3#start">Inverters</a></li>
+
+                                
+                                    <li><a href="browse.php?c=6#start">Others</a></li>
+
+                                
+                            </ul>
+
                         </div>
+
                     </div>
-                    <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 col-style">
-                        <div class="box-information box-footer">
-                            <div class="module clearfix">
-                                <h3 class="modtitle">Brands</h3>
-                                <div class="modcontent">
-                                    <ul class="menu">
-                                        <li><a href="browse.php?brand=yuema#start">Yuema</a></li>
-                                        <li><a href="browse.php?brand=transmax#start">Transmax</a></li>
-                                        <li><a href="browse.php?brand=revco#start">Revco</a></li>
-                                        <li><a href="browse.php?brand=southern-cross#start">Southern Cross</a></li>
-                                        <li><a href="browse.php?brand=oriental-koshin#start">Koshin</a></li>
-                                        <li><a href="browse.php?brand=elektrim-cantoni#start">Elektrim Cantoni</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <hr class="spacer s visible-xs">
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 col-style">
-                        <div class="box-information box-footer">
-                            <div class="module clearfix">
-                                <h3 class="modtitle">Categories</h3>
-                                <div class="modcontent">
-                                    <ul class="menu">
-                                        <li><a href="browse.php?c=1#start">Electric Motors</a></li>
-                                        <li><a href="browse.php?c=2#start">Gear Reducers</a></li>
-                                        <li><a href="browse.php?c=5#start">Pumps</a></li>
-                                        <li><a href="browse.php?c=4#start">Handling Equipments</a></li>
-                                        <li><a href="browse.php?c=3#start">Inverters</a></li>
-                                        <li><a href="browse.php?c=6#start">Others</a></li>
-                                    </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="footer-bottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="payment-w col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        </div>
-                        <div class="copyright col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                            <p>Copyright 2021 PT. Roda Rollen Indonesia. All Rights Reserved.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Back To Top-->
-            <div class="back-to-top hidden-xs"><i class="fa fa-angle-up"></i></div>
-
-
-
-            <style type="text/css">
-                .mobile-bottom {
-
-                    position: fixed;
-
-                    bottom: 0;
-
-                    width: 100%;
-
-                    text-align: center;
-
-                    background: #e42127;
-
-                    z-index: 9999;
-
-                }
-
-                .mobile-bottom .part {
-
-                    width: 25%;
-
-                    float: left;
-
-                    color: white;
-
-                    height: 50px;
-
-                    font-size: 11px;
-
-                    line-height: 18px;
-
-                    padding-top: 10px;
-
-                    transition: all 0.1s linear;
-
-                    line-height: 14px;
-
-                }
-
-                .mobile-bottom .part i {
-
-                    font-size: 17px;
-
-                }
-
-                .mobile-bottom .part.active,
-
-                .mobile-bottom .part.active:hover,
-
-                .mobile-bottom .part.active:active,
-
-                .mobile-bottom .part:hover,
-
-                .mobile-bottom .part:active {
-
-                    background: #eee;
-
-                    color: #e42127;
-
-                }
-
-
-
-
-
-
-
-                .mobile-tray {
-
-                    position: fixed;
-
-                    bottom: -1000px;
-
-                    width: 100%;
-
-                    background: #fff;
-
-                    z-index: 999;
-
-                    font-size: 11px;
-
-                    max-height: 80%;
-
-                    overflow-y: scroll;
-
-                    transition: all 0.1s linear;
-
-                    padding-bottom: 10px;
-
-                }
-
-                .mobile-tray.opened {
-
-                    bottom: 50px;
-
-                }
-
-                .mobile-tray h2 {
-
-                    width: 100%;
-
-                    display: block;
-
-                    color: white;
-
-                    background-color: #e42127;
-
-                    padding: 10px 15px;
-
-                }
-
-                .mobile-tray .item {
-
-                    width: 33.3333%;
-
-                    float: left;
-
-                    text-align: center;
-
-                    padding: 15px;
-
-                    transition: all 0.1s linear;
-
-                    line-height: 14px;
-
-                }
-
-                .mobile-tray .item img {
-
-                    width: 90%;
-
-                    margin: 0 auto;
-
-                }
-
-                #mm-brands img {
-
-                    transition: all 0.1s linear;
-
-                }
-
-                .mobile-tray .item:hover,
-
-                .mobile-tray .item:active {
-
-                    transform: scale(1.1);
-
-                }
-
-                #mm-about .item {
-
-                    font-size: 20px;
-
-                    text-align: left;
-
-                    font-weight: 500;
-
-                    line-height: 25px;
-
-                    width: 100%;
-
-                    color: #333;
-
-                    min-height: 0px !important;
-
-                }
-
-                #mm-about .item a {
-
-                    color: #333;
-
-                }
-
-                #mm-about .item:hover,
-
-                #mm-about .item:active {
-
-                    transform: scale(1.05) translate(5px, 0);
-
-                }
-
-
-
-                /*mobile submenu*/
-
-                .mobile-tray .has-submenu {}
-
-                .mobile-subtray {
-
-                    position: fixed;
-
-                    bottom: -1000px;
-
-                    width: 100%;
-
-                    background: #fff;
-
-                    z-index: 999;
-
-                    font-size: 11px;
-
-                    max-height: 80%;
-
-                    overflow-y: scroll;
-
-                    transition: all 0.1s linear;
-
-                    padding-bottom: 10px;
-
-                }
-
-                .mobile-subtray.opened {
-
-                    bottom: 50px;
-
-                }
-
-                .mobile-subtray h2 {
-
-                    width: 100%;
-
-                    display: block;
-
-                    color: white;
-
-                    background-color: #e42127;
-
-                    padding: 10px 15px;
-
-                }
-            </style>
-
-
-
-            <!-- mobile menu -->
-
-            <div class="mobile-bottom visible-xs">
-
-                <div class="part" data-target="mm-categories">
-
-                    <i class="fa fa-tags"></i>
-
-                    <br>
-
-                    Categories
-
-                </div>
-
-                <div class="part" data-target="mm-brands">
-
-                    <i class="fa fa-copyright"></i>
-
-                    <br>
-
-                    Brands
-
-                </div>
-
-                <div class="part" data-target="mm-about">
-
-                    <i class="fa fa-info-circle"></i>
-
-                    <br>
-
-                    About
-
-                </div>
-
-                <div class="part" data-target="mm-search">
-
-                    <i class="fa fa-search"></i>
-
-                    <br>
-
-                    Search
 
                 </div>
 
             </div>
 
+        </div>
 
+    </div>
 
-            <!-- mobile menu -->
+    
 
-            <div class="mobile-tray visible-xs " id="mm-categories">
+    <div class="footer-bottom">        
 
-                <h2>Product Categories</h2>
+        <div class="container">
 
+            <div class="row">
 
-
-                <div class="item match-height has-submenu" submenu-target="electric-motors">
-
-                    <a href="javascript:void(0)"><img src="image/categories/electric-motors.jpg"
-                            class="img-responsive"></a>
-
-                    <a href="javascript:void(0)">Electric Motors</a>
+                <div class="payment-w col-lg-4 col-md-4 col-sm-12 col-xs-12">
 
                 </div>
 
+                <div class="copyright col-lg-8 col-md-8 col-sm-12 col-xs-12">
 
-                <div class="item match-height has-submenu" submenu-target="gear-reducers">
+                    <p>Copyright 2021 PT. Roda Rollen Indonesia. All Rights Reserved.</p>
 
-                    <a href="javascript:void(0)"><img src="image/categories/gears2.jpg" class="img-responsive"></a>
-
-                    <a href="javascript:void(0)">Gear Reducers</a>
-
-                </div>
-
-
-                <div class="item match-height has-submenu" submenu-target="pumps">
-
-                    <a href="javascript:void(0)"><img src="image/categories/pumps2.jpg" class="img-responsive"></a>
-
-                    <a href="javascript:void(0)">Pumps</a>
-
-                </div>
-
-
-                <div class="item match-height has-submenu" submenu-target="handling-equipments">
-
-                    <a href="javascript:void(0)"><img src="image/categories/handling.jpg" class="img-responsive"></a>
-
-                    <a href="javascript:void(0)">Handling Equipments</a>
-
-                </div>
-
-
-                <div class="item match-height has-submenu" submenu-target="inverters">
-
-                    <a href="javascript:void(0)"><img src="image/categories/invert.jpg" class="img-responsive"></a>
-
-                    <a href="javascript:void(0)">Inverters</a>
-
-                </div>
-
-
-                <div class="item match-height has-submenu" submenu-target="others">
-
-                    <a href="javascript:void(0)"><img src="image/categories/others.jpg" class="img-responsive"></a>
-
-                    <a href="javascript:void(0)">Others</a>
-
-                </div>
-
+                </div>                                   
 
             </div>
 
+        </div>            
 
-
-            <style type="text/css">
-                .mobile-subtray .menu {
-                    padding-bottom: 0px;
-                }
-
-                .mobile-subtray .menu>ul li a.main-menu {
-                    color: #222;
-                    font-size: 16px;
-                    padding: 13px 15px;
-                    display: block;
-                    font-weight: 500;
-                    text-transform: uppercase;
-                    border-bottom: 1px dashed #ccc;
-                }
-
-                .mobile-subtray .menu>ul li ul li a {
-                    font-size: 16px;
-                    font-weight: 400;
-                    display: block;
-                    line-height: 36px;
-                    padding: 0px 15px;
-                }
-
-                .mobile-subtray .menu>ul li.subtray-back a {
-                    color: #ccc;
-                    font-style: italic;
-                }
-
-                .browse-all {
-                    border-bottom: 0px !important;
-                }
-            </style>
+    </div>
 
 
 
-            <div class="mobile-subtray" submenu-anchor="electric-motors">
-                <h2>Product Browser</h2>
-                <div class="menu">
-                    <ul>
-                        <li class="subtray-back" parent-tray="mm-categories"><a href="javascript:void(0)"
-                                class="main-menu bb-dashed-ccc"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;back</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="browse.php?c=1&t=1#start" class="main-menu bb-dashed-ccc">1 Phase Motors</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="browse.php?c=1&t=2#start" class="main-menu bb-dashed-ccc">3 Phase Motors</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="browse.php?c=1&t=3#start" class="main-menu bb-dashed-ccc">Brake Motors</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="browse.php?c=1&t=4#start" class="main-menu bb-dashed-ccc">Vibrator Motors</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="browse.php?c=1#start" class="main-menu browse-all">Browse all Electric Motor
-                                products</a>
-                        </li>
-                    </ul>
-                </div>
+    <!--Back To Top-->
+
+    <div class="back-to-top hidden-xs"><i class="fa fa-angle-up"></i></div>
+
+
+
+    <style type="text/css">
+
+        .mobile-bottom {
+
+            position: fixed;
+
+            bottom: 0;
+
+            width: 100%;
+
+            text-align: center;
+
+            background: #e42127;
+
+            z-index: 9999;
+
+        }
+
+        .mobile-bottom .part {
+
+            width: 25%;
+
+            float: left;
+
+            color: white;
+
+            height: 50px;
+
+            font-size:11px;
+
+            line-height: 18px;
+
+            padding-top: 10px;
+
+            transition:all 0.1s linear;
+
+            line-height: 14px;
+
+        }
+
+        .mobile-bottom .part i {
+
+            font-size: 17px;
+
+        }
+
+        .mobile-bottom .part.active,
+
+        .mobile-bottom .part.active:hover,
+
+        .mobile-bottom .part.active:active,
+
+        .mobile-bottom .part:hover,
+
+        .mobile-bottom .part:active {
+
+            background:#eee;
+
+            color: #e42127;
+
+        }
+
+
+
+
+
+
+
+        .mobile-tray {
+
+            position: fixed;
+
+            bottom: -1000px;
+
+            width: 100%;
+
+            background: #fff;
+
+            z-index: 999;
+
+            font-size:11px;
+
+            max-height: 80%;
+
+            overflow-y: scroll;
+
+            transition:all 0.1s linear;
+
+            padding-bottom: 10px;
+
+        }
+
+        .mobile-tray.opened {
+
+            bottom: 50px;
+
+        }
+
+        .mobile-tray h2 {
+
+            width: 100%;
+
+            display: block;
+
+            color: white;
+
+            background-color: #e42127;
+
+            padding: 10px 15px;
+
+        }
+
+        .mobile-tray .item {
+
+            width: 33.3333%;
+
+            float: left;
+
+            text-align: center;
+
+            padding: 15px;
+
+            transition:all 0.1s linear;
+
+            line-height: 14px;
+
+        }
+
+        .mobile-tray .item img {
+
+            width: 90%;
+
+            margin: 0 auto;
+
+        }
+
+        #mm-brands img {
+
+            transition:all 0.1s linear;
+
+        }
+
+        .mobile-tray .item:hover,
+
+        .mobile-tray .item:active {
+
+            transform: scale(1.1);
+
+        }
+
+        #mm-about .item {
+
+            font-size: 20px;
+
+            text-align: left;
+
+            font-weight: 500;
+
+            line-height: 25px;
+
+            width: 100%;
+
+            color: #333;
+
+            min-height: 0px !important;
+
+        }
+
+        #mm-about .item a {
+
+            color: #333;
+
+        }
+
+        #mm-about .item:hover,
+
+        #mm-about .item:active {
+
+            transform: scale(1.05) translate(5px, 0);
+
+        }
+
+
+
+        /*mobile submenu*/
+
+        .mobile-tray .has-submenu {
+
+
+
+        }
+
+        .mobile-subtray {
+
+            position: fixed;
+
+            bottom: -1000px;
+
+            width: 100%;
+
+            background: #fff;
+
+            z-index: 999;
+
+            font-size:11px;
+
+            max-height: 80%;
+
+            overflow-y: scroll;
+
+            transition:all 0.1s linear;
+
+            padding-bottom: 10px;
+
+        }
+
+        .mobile-subtray.opened {
+
+            bottom: 50px;
+
+        }
+
+        .mobile-subtray h2 {
+
+            width: 100%;
+
+            display: block;
+
+            color: white;
+
+            background-color: #e42127;
+
+            padding: 10px 15px;
+
+        }
+
+    </style>
+
+
+
+    <!-- mobile menu -->
+
+    <div class="mobile-bottom visible-xs">
+
+        <div class="part" data-target="mm-categories">
+
+            <i class="fa fa-tags"></i>
+
+            <br>
+
+            Categories
+
+        </div>
+
+        <div class="part" data-target="mm-brands">
+
+            <i class="fa fa-copyright"></i>
+
+            <br>
+
+            Brands
+
+        </div>
+
+        <div class="part" data-target="mm-about">
+
+            <i class="fa fa-info-circle"></i>
+
+            <br>
+
+            About
+
+        </div>
+
+        <div class="part" data-target="mm-search">
+
+            <i class="fa fa-search"></i>
+
+            <br>
+
+            Search
+
+        </div>
+
+    </div>
+
+
+
+    <!-- mobile menu -->
+
+    <div class="mobile-tray visible-xs " id="mm-categories" style="">
+
+        <h2>Product Categories</h2>
+
+        
+        
+            <div class="item match-height has-submenu" submenu-target="electric-motors" style="height: 0px;">
+
+                <a href="javascript:void(0)"><img src="image/categories/electric-motors.jpg" class="img-responsive"></a>
+
+                <a href="javascript:void(0)">Electric Motors</a>
+
             </div>
 
+        
+            <div class="item match-height has-submenu" submenu-target="gear-reducers" style="height: 0px;">
 
+                <a href="javascript:void(0)"><img src="image/categories/gears2.jpg" class="img-responsive"></a>
 
+                <a href="javascript:void(0)">Gear Reducers</a>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <div class="mobile-subtray" submenu-anchor="gear-reducers">
-                <h2>Product Browser</h2>
-                <div class="menu">
-                    <ul>
-                        <li class="subtray-back" parent-tray="mm-categories"><a href="javascript:void(0)"
-                                class="main-menu bb-dashed-ccc"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;back</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="browse.php?c=2&t=6#start" class="main-menu">Helical Gears</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="browse.php?c=2&t=5#start" class="main-menu">Worm Gears</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="browse.php?c=2&t=9#start" class="main-menu">Hypoid Gears</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="browse.php?c=2#start" class="main-menu browse-all">Browse all Gear Reducer
-                                products</a>
-                        </li>
-                    </ul>
-                </div>
             </div>
 
+        
+            <div class="item match-height has-submenu" submenu-target="pumps" style="height: 0px;">
+
+                <a href="javascript:void(0)"><img src="image/categories/pumps2.jpg" class="img-responsive"></a>
+
+                <a href="javascript:void(0)">Pumps</a>
+
+            </div>
+
+        
+            <div class="item match-height has-submenu" submenu-target="handling-equipments" style="height: 0px;">
+
+                <a href="javascript:void(0)"><img src="image/categories/handling.jpg" class="img-responsive"></a>
+
+                <a href="javascript:void(0)">Handling Equipments</a>
+
+            </div>
+
+        
+            <div class="item match-height has-submenu" submenu-target="inverters" style="height: 0px;">
+
+                <a href="javascript:void(0)"><img src="image/categories/invert.jpg" class="img-responsive"></a>
+
+                <a href="javascript:void(0)">Inverters</a>
+
+            </div>
+
+        
+            <div class="item match-height has-submenu" submenu-target="others" style="height: 0px;">
+
+                <a href="javascript:void(0)"><img src="image/categories/others.jpg" class="img-responsive"></a>
+
+                <a href="javascript:void(0)">Others</a>
+
+            </div>
+
+        
+    </div>
+
+
+
+    <style type="text/css">
+	.mobile-subtray .menu {
+		padding-bottom: 0px;
+	}
+	.mobile-subtray .menu > ul li a.main-menu {
+		color: #222;
+		font-size: 16px;
+		padding: 13px 15px;
+		display: block;
+		font-weight: 500;
+		text-transform: uppercase;
+		border-bottom: 1px dashed #ccc;
+	}
+	.mobile-subtray .menu > ul li ul li a {
+		font-size: 16px;
+	    font-weight: 400;
+	    display: block;
+	    line-height: 36px;
+	    padding: 0px 15px;
+	}
+	.mobile-subtray .menu > ul li.subtray-back a {
+		color: #ccc;
+		font-style: italic;
+	}
+	.browse-all {
+		border-bottom: 0px !important;
+	}
+</style>
+
+
+
+<div class="mobile-subtray" submenu-anchor="electric-motors">
+    <h2>Product Browser</h2>
+    <div class="menu">
+        <ul>
+            <li class="subtray-back" parent-tray="mm-categories"><a href="javascript:void(0)" class="main-menu bb-dashed-ccc"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;back</a></li>        </ul>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="browse.php?c=1&amp;t=1#start" class="main-menu bb-dashed-ccc">1 Phase Motors</a>
+            </li>
+        </ul>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="browse.php?c=1&amp;t=2#start" class="main-menu bb-dashed-ccc">3 Phase Motors</a>
+            </li>
+        </ul>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="browse.php?c=1&amp;t=3#start" class="main-menu bb-dashed-ccc">Brake Motors</a>
+            </li>
+        </ul>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="browse.php?c=1&amp;t=4#start" class="main-menu bb-dashed-ccc">Vibrator Motors</a>
+            </li>
+        </ul>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>
+            	<a href="browse.php?c=1#start" class="main-menu browse-all">Browse all Electric Motor products</a>
+            </li>
+        </ul>
+    </div>
+</div>
 
 
 
@@ -2084,417 +2087,453 @@
 
 
 
-            <!-----------------
+
+
+
+
+
+
+
+<div class="mobile-subtray" submenu-anchor="gear-reducers">
+    <h2>Product Browser</h2>
+    <div class="menu">
+        <ul>
+            <li class="subtray-back" parent-tray="mm-categories"><a href="javascript:void(0)" class="main-menu bb-dashed-ccc"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;back</a></li>        </ul>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="browse.php?c=2&amp;t=6#start" class="main-menu">Helical Gears</a>
+            </li>
+        </ul>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="browse.php?c=2&amp;t=5#start" class="main-menu">Worm Gears</a>
+            </li>
+        </ul>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="browse.php?c=2&amp;t=9#start" class="main-menu">Hypoid Gears</a>
+            </li>
+        </ul>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>
+            	<a href="browse.php?c=2#start" class="main-menu browse-all">Browse all Gear Reducer products</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!-----------------
 -------------------
 CATEGORY 
 -------------------
 ------------------>
-            <div class="mobile-subtray" submenu-anchor="handling-equipments">
-                <h2>Product Browser</h2>
-                <div class="menu">
-                    <ul>
-                        <li class="subtray-back" parent-tray="mm-categories"><a href="javascript:void(0)"
-                                class="main-menu bb-dashed-ccc"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;back</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="browse.php?brand=bishamon#start" class="main-menu">Bishamon</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="browse.php?brand=revco#start" class="main-menu">Revco</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="browse.php?brand=prestar#start" class="main-menu">Prestar</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="browse.php?c=4#start" class="main-menu browse-all">Browse all Handling Equipment
-                                products</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-
-
-
-
-
-
-
-
-
-
-            <div class="mobile-subtray" submenu-anchor="inverters">
-                <h2>Product Browser</h2>
-                <div class="menu">
-                    <ul>
-                        <li class="subtray-back" parent-tray="mm-categories"><a href="javascript:void(0)"
-                                class="main-menu bb-dashed-ccc"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;back</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="browse.php?brand=delta#start" class="main-menu">Delta</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="browse.php?brand=invt#start" class="main-menu">INVT</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="browse.php?c=3#start" class="main-menu browse-all">Browse all Inverter products</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-
-
-
-
-
-
-
-
-
-
-
-            <div class="mobile-subtray" submenu-anchor="pumps">
-                <h2>Product Browser</h2>
-                <div class="menu">
-                    <ul>
-                        <li class="subtray-back" parent-tray="mm-categories"><a href="javascript:void(0)"
-                                class="main-menu bb-dashed-ccc"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;back</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="browse.php?t=7#start" class="main-menu">Gear Pumps</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="browse.php?c=5&t=8#start" class="main-menu">Fill Pumps</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="browse.php?c=5&t=11#start" class="main-menu">Multi Stage Pumps</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="browse.php?c=5&t=10#start" class="main-menu">Centrifugal Pumps</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="browse.php?c=5&t=12#start" class="main-menu">Vacuum Pump</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="browse.php?c=5#start" class="main-menu browse-all">Browse all Pump products</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <div class="mobile-subtray" submenu-anchor="others">
-                <h2>Product Browser</h2>
-                <div class="menu">
-                    <ul>
-                        <li class="subtray-back" parent-tray="mm-categories"><a href="javascript:void(0)"
-                                class="main-menu bb-dashed-ccc"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;back</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="view.php?id=68" class="main-menu">Motor Cooling Fan</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="browse.php?c=6#start" class="main-menu">DC Brake</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="browse.php?c=6#start" class="main-menu">Couplings</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="browse.php?c=6#start" class="main-menu browse-all">Browse all Others products</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-
-
-
-            <!-- mobile menu -->
-
-            <div class="mobile-tray visible-xs " id="mm-brands">
-
-                <h2>Product Brands</h2>
-
-
-
-                <div class="item match-height">
-
-                    <a href="browse.php?brand=yuema#start"><img src="image/partner1.png" class="img-responsive"></a>
-
-                </div>
-
-
-                <div class="item match-height">
-
-                    <a href="browse.php?brand=revco#start"><img src="image/partner5.png" class="img-responsive"></a>
-
-                </div>
-
-
-                <div class="item match-height">
-
-                    <a href="browse.php?brand=elektrim-cantoni#start"><img src="image/partner2.png"
-                            class="img-responsive"></a>
-
-                </div>
-
-
-                <div class="item match-height">
-
-                    <a href="browse.php?brand=transmax#start"><img src="image/partner3.png" class="img-responsive"></a>
-
-                </div>
-
-
-                <div class="item match-height">
-
-                    <a href="browse.php?brand=southern-cross#start"><img src="image/partner6.png"
-                            class="img-responsive"></a>
-
-                </div>
-
-
-                <div class="item match-height">
-
-                    <a href="browse.php?brand=quantum#start"><img src="image/partner7.png" class="img-responsive"></a>
-
-                </div>
-
-
-                <div class="item match-height">
-
-                    <a href="browse.php?brand=prestar#start"><img src="image/partner8.png" class="img-responsive"></a>
-
-                </div>
-
-
-                <div class="item match-height">
-
-                    <a href="browse.php?brand=delta#start"><img src="image/partner13.png" class="img-responsive"></a>
-
-                </div>
-
-
-                <div class="item match-height">
-
-                    <a href="browse.php?brand=oriental-koshin#start"><img src="image/partner12.png"
-                            class="img-responsive"></a>
-
-                </div>
-
-
-                <div class="item match-height">
-
-                    <a href="browse.php?brand=speck#start"><img src="image/partner4.png" class="img-responsive"></a>
-
-                </div>
-
-
-                <div class="item match-height">
-
-                    <a href="browse.php?brand=sihi#start"><img src="image/partner14.png" class="img-responsive"></a>
-
-                </div>
-
-
-                <div class="item match-height">
-
-                    <a href="browse.php?brand=bishamon#start"><img src="image/partner11.png" class="img-responsive"></a>
-
-                </div>
-
-
-                <div class="item match-height">
-
-                    <a href="browse.php?brand=invt#start"><img src="image/partner16.png" class="img-responsive"></a>
-
-                </div>
-
-
-                <div class="item match-height">
-
-                    <a href="browse.php?brand=teco#start"><img src="image/partner17.png" class="img-responsive"></a>
-
-                </div>
-
+<div class="mobile-subtray" submenu-anchor="handling-equipments">
+    <h2>Product Browser</h2>
+    <div class="menu">
+        <ul>
+            <li class="subtray-back" parent-tray="mm-categories"><a href="javascript:void(0)" class="main-menu bb-dashed-ccc"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;back</a></li>        </ul>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="browse.php?brand=bishamon#start" class="main-menu">Bishamon</a>
+            </li>
+        </ul>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="browse.php?brand=revco#start" class="main-menu">Revco</a>
+            </li>
+        </ul>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="browse.php?brand=prestar#start" class="main-menu">Prestar</a>
+            </li>
+        </ul>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>
+            	<a href="browse.php?c=4#start" class="main-menu browse-all">Browse all Handling Equipment products</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="mobile-subtray" submenu-anchor="inverters">
+    <h2>Product Browser</h2>
+    <div class="menu">
+        <ul>
+            <li class="subtray-back" parent-tray="mm-categories"><a href="javascript:void(0)" class="main-menu bb-dashed-ccc"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;back</a></li>        </ul>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="browse.php?brand=delta#start" class="main-menu">Delta</a>
+            </li>
+        </ul>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="browse.php?brand=invt#start" class="main-menu">INVT</a>
+            </li>
+        </ul>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>
+            	<a href="browse.php?c=3#start" class="main-menu browse-all">Browse all Inverter products</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="mobile-subtray" submenu-anchor="pumps">
+    <h2>Product Browser</h2>
+    <div class="menu">
+        <ul>
+            <li class="subtray-back" parent-tray="mm-categories"><a href="javascript:void(0)" class="main-menu bb-dashed-ccc"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;back</a></li>        </ul>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="browse.php?t=7#start" class="main-menu">Gear Pumps</a>
+            </li>
+        </ul>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="browse.php?c=5&amp;t=8#start" class="main-menu">Fill Pumps</a>
+            </li>
+        </ul>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="browse.php?c=5&amp;t=11#start" class="main-menu">Multi Stage Pumps</a>
+            </li>
+        </ul>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="browse.php?c=5&amp;t=10#start" class="main-menu">Centrifugal Pumps</a>
+            </li>
+        </ul>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="browse.php?c=5&amp;t=12#start" class="main-menu">Vacuum Pump</a>
+            </li>
+        </ul>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>
+            	<a href="browse.php?c=5#start" class="main-menu browse-all">Browse all Pump products</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="mobile-subtray" submenu-anchor="others">
+    <h2>Product Browser</h2>
+    <div class="menu">
+        <ul>
+            <li class="subtray-back" parent-tray="mm-categories"><a href="javascript:void(0)" class="main-menu bb-dashed-ccc"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;back</a></li>        </ul>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="view.php?id=68" class="main-menu">Motor Cooling Fan</a>
+            </li>
+        </ul>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="browse.php?c=6#start" class="main-menu">DC Brake</a>
+            </li>
+        </ul>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="browse.php?c=6#start" class="main-menu">Couplings</a>
+            </li>
+        </ul>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>
+            	<a href="browse.php?c=6#start" class="main-menu browse-all">Browse all Others products</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+
+
+    <!-- mobile menu -->
+
+    <div class="mobile-tray visible-xs " id="mm-brands" style="">
+
+        <h2>Product Brands</h2>
+
+        
+        
+            <div class="item match-height" style="height: 0px;">
+
+                <a href="browse.php?brand=yuema#start"><img src="image/partner1.png" class="img-responsive"></a>
 
             </div>
 
+        
+            <div class="item match-height" style="height: 0px;">
 
-
-            <!-- mobile menu -->
-
-            <div class="mobile-tray visible-xs " id="mm-about">
-
-                <h2>More Information</h2>
-
-                <div class="item">
-
-                    <a href="index.php">
-
-                        Home
-
-                    </a>
-
-                </div>
-
-                <div class="item">
-
-                    <a href="about.php">
-
-                        About Us
-
-                    </a>
-
-                </div>
-
-                <div class="item">
-
-                    <a href="browse.php">
-
-                        Our Products
-
-                    </a>
-
-                </div>
-
-                <div class="item">
-
-                    <a href="brands.php">
-
-                        Our Brands
-
-                    </a>
-
-                </div>
-
-                <div class="item">
-
-                    <a href="rfq.php">
-
-                        Request For Quotation
-
-                    </a>
-
-                </div>
-
-                <div class="item">
-
-                    <a href="#" data-toggle="modal" data-target="#contact-us">
-
-                        Contact Us
-
-                    </a>
-
-                </div>
+                <a href="browse.php?brand=revco#start"><img src="image/partner5.png" class="img-responsive"></a>
 
             </div>
 
+        
+            <div class="item match-height" style="height: 0px;">
 
-
-            <!-- mobile menu -->
-
-            <div class="mobile-tray visible-xs " id="mm-search">
-
-                <h2>Search</h2>
-
-                <form method="get" action="browse.php#start">
-
-                    <div id="search0" class="search input-group form-group">
-
-                        <input class="form-control mobile-search" type="text" value="" size="50" autocomplete="off"
-                            placeholder="Bevel gears..." name="search" required>
-
-                    </div>
-
-                </form>
+                <a href="browse.php?brand=elektrim-cantoni#start"><img src="image/partner2.png" class="img-responsive"></a>
 
             </div>
 
+        
+            <div class="item match-height" style="height: 0px;">
+
+                <a href="browse.php?brand=transmax#start"><img src="image/partner3.png" class="img-responsive"></a>
+
+            </div>
+
+        
+            <div class="item match-height" style="height: 0px;">
+
+                <a href="browse.php?brand=southern-cross#start"><img src="image/partner6.png" class="img-responsive"></a>
+
+            </div>
+
+        
+            <div class="item match-height" style="height: 0px;">
+
+                <a href="browse.php?brand=quantum#start"><img src="image/partner7.png" class="img-responsive"></a>
+
+            </div>
+
+        
+            <div class="item match-height" style="height: 0px;">
+
+                <a href="browse.php?brand=prestar#start"><img src="image/partner8.png" class="img-responsive"></a>
+
+            </div>
+
+        
+            <div class="item match-height" style="height: 0px;">
+
+                <a href="browse.php?brand=delta#start"><img src="image/partner13.png" class="img-responsive"></a>
+
+            </div>
+
+        
+            <div class="item match-height" style="height: 0px;">
+
+                <a href="browse.php?brand=oriental-koshin#start"><img src="image/partner12.png" class="img-responsive"></a>
+
+            </div>
+
+        
+            <div class="item match-height" style="height: 0px;">
+
+                <a href="browse.php?brand=speck#start"><img src="image/partner4.png" class="img-responsive"></a>
+
+            </div>
+
+        
+            <div class="item match-height" style="height: 0px;">
+
+                <a href="browse.php?brand=sihi#start"><img src="image/partner14.png" class="img-responsive"></a>
+
+            </div>
+
+        
+            <div class="item match-height" style="height: 0px;">
+
+                <a href="browse.php?brand=bishamon#start"><img src="image/partner11.png" class="img-responsive"></a>
+
+            </div>
+
+        
+            <div class="item match-height" style="height: 0px;">
+
+                <a href="browse.php?brand=invt#start"><img src="image/partner16.png" class="img-responsive"></a>
+
+            </div>
+
+        
+            <div class="item match-height" style="height: 0px;">
+
+                <a href="browse.php?brand=teco#start"><img src="image/partner17.png" class="img-responsive"></a>
+
+            </div>
+
+        
+    </div>
 
 
-        </footer>
+
+    <!-- mobile menu -->
+
+    <div class="mobile-tray visible-xs " id="mm-about">
+
+        <h2>More Information</h2>
+
+        <div class="item">
+
+            <a href="index.php">
+
+                Home
+
+            </a>
+
+        </div>
+
+        <div class="item">
+
+            <a href="about.php">
+
+                About Us
+
+            </a>
+
+        </div>
+
+        <div class="item">
+
+            <a href="browse.php">
+
+                Our Products
+
+            </a>
+
+        </div>
+
+        <div class="item">
+
+            <a href="brands.php">
+
+                Our Brands
+
+            </a>
+
+        </div>
+
+        <div class="item">
+
+            <a href="rfq.php">
+
+                Request For Quotation
+
+            </a>
+
+        </div>
+
+        <div class="item">
+
+            <a href="#" data-toggle="modal" data-target="#contact-us">
+
+                Contact Us
+
+            </a>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- mobile menu -->
+
+    <div class="mobile-tray visible-xs " id="mm-search">
+
+        <h2>Search</h2>
+
+        <form method="get" action="browse.php#start">
+
+            <div id="search0" class="search input-group form-group">
+
+                <input class="form-control mobile-search" type="text" value="" size="50" autocomplete="off" placeholder="Yuema gears..." name="search" required="">
+
+            </div>
+
+        </form>
+
+    </div>
+
+
+
+</footer>
 
         <!-- //end Footer Container
 
@@ -2509,7 +2548,7 @@ CATEGORY
 
 
 
-<!-- Include Libs & Plugins
+ Include Libs & Plugins
 ============================================ -->
         <!-- Placed at the end of the document so the pages load faster -->
         <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
