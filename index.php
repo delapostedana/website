@@ -7,7 +7,7 @@
     <!-- Basic page needs
     ============================================ -->
 
-    <title>PT. Roda Rollen Indonesia, Distributor of Electric Motors And Gears Indonesia</title>
+    <title>PT. CIPTA MANDIRI ELEKTRINDO</title>
 
     <!-- Mobile specific metas
     ============================================ -->
@@ -99,7 +99,7 @@
                             <div class="logo ">
                                 <!-- <h4>LOGO</h4> -->
                                 <a href="index.php">
-                                    <img src="image/logo.png" title="PT. Roda Rollen Indonesia" alt="PT. Roda Rollen Indonesia" />
+                                    <img src="image/logo4601.png" title="PT. CIPTA MANDIRI ELEKTRINDO" alt="PT. CIPTA MANDIRI ELEKTRINDO" />
                                 </a>
                             </div>
                         </div>

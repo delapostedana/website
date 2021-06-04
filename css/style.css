@@ -3,17 +3,17 @@
   overflow:hidden !important;
 }
 .border-red-10 {
-    border-bottom: 3px solid #0dcaf0;
+    border-bottom: 3px solid #000066;
     width: 10%;
     text-align: left;
 }
 .border-red-20 {
-    border-bottom: 3px solid #0dcaf0;
+    border-bottom: 3px solid #000066;
     width: 20%;
     text-align: left;
 }
 .border-red-30 {
-    border-bottom: 3px solid #0dcaf0;
+    border-bottom: 3px solid #000066;
     width: 30%;
     text-align: left;
 }
@@ -63,7 +63,7 @@
     line-height: 18px;
 }
 .item.subvert.active a {
-    color: #0dcaf0;
+    color: #000066;
     background: #fafafa;
 }
 .item.subvert a:hover {
@@ -117,7 +117,7 @@ h3.red-title {
   color: #fff;
 }
 .category-style .item a.active {
-    color: #0dcaf0;
+    color: #000066;
 }
 table.rri-table {
   overflow-x: auto;
@@ -131,7 +131,7 @@ table.rri-table-full tr td {
 }
 table.rri-table tr td a,
 table.rri-table-full tr td a {
-    color: #0dcaf0;
+    color: #000066;
 }
 table.rri-table .brand-logo,
 table.rri-table-full .brand-logo {
@@ -144,7 +144,7 @@ table.rri-table-full .brand-logo {
     border:0px;
 }
 .btn-primary {
-    background-color: #0dcaf0;
+    background-color: #000066;
 }
 .btn-primary:hover {
     background-color: red;
@@ -161,7 +161,7 @@ h3.red-title {
     padding:0 10px;
 }
 .category-style .item a.active {
-    color: #0dcaf0;
+    color: #000066;
 }
 li.owl2-item {
     float: left;
@@ -175,7 +175,7 @@ li.owl2-item a.thumbnail {
     border-radius:0px;
 }
 .rri-red {
-    color:#0dcaf0 !important;
+    color:#000066 !important;
 }
 .rri-black {
     color:#666 !important;
@@ -232,7 +232,7 @@ li.owl2-item a.thumbnail {
 }
 .modal-content {border-radius:0px !important;}
 .modal-header {
-  background: #0dcaf0;
+  background: #000066;
   color: white;
   border: 0px;
   text-transform: uppercase;
@@ -268,14 +268,14 @@ hr.spacer.xl {
     color: #666;
 }
 .btn-primary.focus, .btn-primary:focus {
-  background: #0dcaf0;
+  background: #000066;
 }
 .grid-item {
     padding: 0 0 15px 0;
     margin-bottom: 30px;
 }
 .grid-item:hover .title a {
-    color:#0dcaf0;
+    color:#000066;
 }
 
 .grid-item .title a{
@@ -283,7 +283,7 @@ hr.spacer.xl {
   color: gray;
 }
 .container-megamenu.vertical .vertical-wrapper ul.megamenu > li > .sub-menu .content .static-menu .menu > ul li a.main-menu:hover {
-    color:#0dcaf0;
+    color:#000066;
 }
 .lSAction {
   display: none !important;
@@ -370,7 +370,7 @@ hr.spacer.xl {
   }
   .container-megamenu.vertical .vertical-wrapper ul.megamenu > li > .sub-menu .content .static-menu .menu > ul ul li:hover a,
   .container-megamenu.vertical .vertical-wrapper ul.megamenu > li > .sub-menu .content .static-menu .menu > ul ul li:active a {
-    color: #0dcaf0;
+    color: #000066;
     transform: scale(1.01);
   }
   .thumb-vertical-outer ul li .thumbnail.active {

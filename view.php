@@ -99,7 +99,7 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <div class="logo">
-                                <a href="index.php"><img src="image/logo.png" title="PT. Roda Rollen Indonesia" alt="PT. Roda Rollen Indonesia" /></a>
+                                <a href="index.php"><img src="image/logo4601.png" title="PT. CIPTA MANDIRI ELEKTRINDO" alt="PT. CIPTA MANDIRI ELEKTRINDO" /></a>
                             </div>
                         </div>
                         <div class="col-lg-7 col-md-8 col-sm-12 col-xs-12 middle-right hidden-xs">
