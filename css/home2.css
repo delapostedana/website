@@ -3753,11 +3753,10 @@ ul.breadcrumb li:hover a {
 .container-megamenu.horizontal ul.megamenu>li.active_menu>a {
   background-color: #0dcaf0;
   color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
-.container-megamenu.horizontal {
-  /*-------- SUB MENU HORIZONTAL ----------*/
-}
 
 .container-megamenu.horizontal ul.megamenu li .sub-menu .content .static-menu .menu ul {
   padding: 0;
@@ -6587,6 +6586,7 @@ ul.yt-accordion li.accordion-group h3.accordion-heading:hover .fa {
   font-weight: 300;
   color: #333;
 }
+
 
 .welcome-about-us .image-about-us {
   float: left;

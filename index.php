@@ -104,7 +104,8 @@
                                     </a> -->
                             </div>
                         </div>
-                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 middle-right hidden-xs">
+
+                        <div class="col-lg-7 col-md-8 col-sm-12 col-xs-12 middle-right hidden-xs">
                             <div class="search-header-w">
                                 <div class="icon-search hidden-lg hidden-md"><i class="fa fa-search"></i></div>
 
@@ -117,14 +118,21 @@
 
                                             <button type="submit" class="button-search btn btn-primary"><i
                                                     class="fa fa-search"></i></button>
+                                                    
 
                                         </div>
                                     </form>
                                 </div>
+                                                                
                             </div>
 
-
                         </div>
+                        <div class="col-lg-1 col-md-8 col-sm-12 col-xs-12 shopping-cart middle-right hidden-xs">
+                            <a href="#" data-toggle="modal"
+                                data-target="#contact-us" class="clearfix">
+                                <strong><i class="fas fa-shopping-cart" style="font-size:30pt; color: #339af0"></i></strong>
+                            </a>
+                            </div>
                     </div>
                 </div>
             </div>
@@ -1234,32 +1242,27 @@
                                                     <span class="icon-bar"></span>
                                                 </button>
                                             </div>
-
                                             <div class="megamenu-wrapper">
                                                 <span id="remove-megamenu" class="fa fa-times"></span>
                                                 <div class="megamenu-pattern">
-                                                    <div class="container-mega">
+                                                    <div class="container-mega row">
+                                                    <div class="col-lg-10">
                                                         <ul class="megamenu" data-transition="slide"
                                                             data-animationtime="250">
-                                                            <li
-                                                                class="hover 
-                                                                                active                                    ">
+                                                            <li class="hover active">
                                                                 <a href="index.php">Home</a>
                                                             </li>
-                                                            <li class="hover 
-                                                                                                                    ">
+                                                            <li class="hover ">
                                                                 <a href="browse.php" class="clearfix">
                                                                     <strong>Products</strong>
                                                                 </a>
                                                             </li>
-                                                            <li class="hover 
-                                                                            ">
+                                                            <li class="hover">
                                                                 <a href="about.php" class="clearfix">
                                                                     <strong>About Us</strong>
                                                                 </a>
                                                             </li>
-                                                            <li class="hover 
-                                                                            ">
+                                                            <li class="hover ">
                                                                 <a href="brands.php" class="clearfix">
                                                                     <strong>Brands</strong>
                                                                 </a>
@@ -1276,10 +1279,10 @@
                                                                     <strong>Contacts</strong>
                                                                 </a>
                                                             </li>
-
-
+                                                          
                                                         </ul>
-
+                                                       
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
