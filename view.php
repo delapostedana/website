@@ -86,18 +86,14 @@
 </head>
 
 
-<body class="res layout-1">
+<body class="res layout-1 listing-page">
 
     <div id="wrapper" class="wrapper-fluid banners-effect-5">
-        <!-- Header Container  -->
 
+        <!-- Header Container  -->
         <header id="header" class=" typeheader-2">
 
-
-
             <!-- Header Top -->
-
-
             <div class="header-middle hidden-compact">
                 <div class="container">
                     <div class="row">
@@ -700,7 +696,7 @@
                                             <div class="col-md-12">
                                                 <form method="get" action="browse.php#start">
 
-                                                    <input class="autosearch-input form-control" id="first-focus" type="text" value="" size="50" autocomplete="off" placeholder="Centrifugal pump..." name="search" required>
+                                                    <input class="autosearch-input form-control" id="first-focus" type="text" value="" size="50" autocomplete="off" placeholder="Oil pumps..." name="search" required>
                                                     <br>
                                                     <button type="submit" class="button-search btn btn-primary btn-block">Search</button>
 
@@ -789,7 +785,7 @@
                                                                 <a href="index.php">Home</a>
                                                             </li>
                                                             <li class="hover 
-                                                                                                                    ">
+                                                                                active                                    ">
                                                                 <a href="browse.php" class="clearfix">
                                                                     <strong>Products</strong>
                                                                 </a>
@@ -801,7 +797,7 @@
                                                                 </a>
                                                             </li>
                                                             <li class="hover 
-                                        active                                    ">
+                                                                            ">
                                                                 <a href="brands.php" class="clearfix">
                                                                     <strong>Brands</strong>
                                                                 </a>
@@ -907,29 +903,664 @@
 
         <!-- Main Container  -->
 
-        <div class="col-md-12 text-center pt-50">
+        <div class="main-container container mt-50 mt-xs-20">
 
-            <hr class="spacer s">
 
-            <h1 class="rri-h2 rri-black">About PT. Roda Rollen Indonesia</h1>
-
-            <hr class="border-red-10">
 
             <div class="row">
 
-                <div class="col-md-8 center-block">
 
-                    <p>PT RODA ROLLEN INDONESIA is a supplier for Mechanical dan Electrical engineering products for modern general industries. The company was established in 1998 and since then has become a stockist and representatives agents for many leading brands in industrial engineering from around the world. </p>
+
+
+
+                <!--Middle Part Start-->
+
+                <div id="content" class="col-md-9 col-sm-8">
+
+
+
+                    <div class="product-view">
+
+                        <div class="left-content-product">
+
+                            <div class="row">
+
+                                <div class="content-product-left col-md-6 col-sm-12 col-xs-12">
+
+
+
+                                    <div class="visible-xs text-center">
+
+                                        <h1 style="color: #333;">Elektrim Cantoni IE1 Motor</h1>
+
+                                        <hr class="border-red-30 ">
+
+                                    </div>
+
+
+
+                                    <div class="large-image vertical">
+
+                                        <img itemprop="image" class="product-image-zoom" src="image/products/elektrim-b35.jpg" data-zoom-image="image/products/elektrim-b35.jpg" title="Elektrim Cantoni IE1 Motor" alt="Elektrim Cantoni IE1 Motor">
+
+                                    </div>
+
+
+
+                                    <div class="row rri-thumbs">
+
+                                        <div class="col-md-3 col-xs-4 item active">
+
+                                            <img src="image/products/elektrim-b35.jpg" title="Canon EOS 5D" alt="Elektrim Cantoni IE1 Motor">
+
+                                        </div>
+
+
+
+
+                                        <div class="col-md-3 col-xs-4  item">
+
+                                            <img src="image/products/elektrim-b5.jpg" title="Elektrim Cantoni IE1 Motor" alt="Elektrim Cantoni IE1 Motor">
+
+                                        </div>
+
+
+
+                                        <div class="col-md-3 col-xs-4  item">
+
+                                            <img src="image/products/elektrim-b34.jpg" title="Elektrim Cantoni IE1 Motor" alt="Elektrim Cantoni IE1 Motor">
+
+                                        </div>
+
+
+
+                                        <div class="col-md-3 col-xs-4  item">
+
+                                            <img src="image/products/elektrim-b3.jpg" title="Elektrim Cantoni IE1 Motor" alt="Elektrim Cantoni IE1 Motor">
+
+                                        </div>
+
+
+
+
+                                    </div>
+
+
+
+                                </div>
+
+
+
+                                <div class="content-product-right col-md-6 col-sm-12 col-xs-12">
+
+                                    <div class="title-product hidden-xs">
+
+                                        <h1>Elektrim Cantoni IE1 Motor</h1>
+
+                                        <hr class="border-red-30 left">
+
+                                    </div>
+
+
+
+
+                                    <table class="rri-table">
+                                        <tr>
+                                            <td>Available Range</td>
+                                            <td>0.08HP ~ 430HP</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pole</td>
+                                            <td>2P/4P/6P/8P</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Specifications</td>
+                                            <td>
+                                                IE1 EFFICIENCY, S1, 3 PHASE, CLASS F INSULATION, IP55 PROTECTION, 50/60HZ
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Voltage</td>
+                                            <td>
+                                                63A ~ 112M = 220/380 V <br>
+                                                132SA ~ ABOVE = 380/660 V
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>3 Phase, Mounted</td>
+                                            <td>
+                                                B3, B5, B35, B14, B34
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <hr class="spacer s">
+
+
+
+
+                                    <hr class="spacer s">
+
+
+
+                                    <table class="rri-table-full">
+
+                                        <tr>
+
+                                            <td>Made In</td>
+
+                                            <td>
+
+                                                Poland
+                                            </td>
+
+                                        </tr>
+
+                                        <tr>
+
+                                            <td rowspan="2">Downloads</td>
+
+                                            <td>
+
+
+
+                                                <a href="downloads/2019/12-December/Brosur_Elektrim_Cantoni_IE1.pdf" target="_blank"><i class="fa fa-download"></i>&nbsp;&nbsp;Technical Data Sheet</a>
+
+
+
+
+
+                                            </td>
+
+                                        </tr>
+
+                                        <tr>
+
+                                            <td>
+
+                                                <a href="downloads/brosur-general-roda-rollen.pdf" target="_blank"><i class="fa fa-download"></i>&nbsp;&nbsp;PT. Roda Rollen Indonesia Catalog</a>
+
+                                            </td>
+
+                                        </tr>
+
+                                    </table>
+
+
+
+                                    <hr class="spacer m">
+
+
+
+                                    <div class="hidden-xs">
+
+                                        <a href="https://wa.me/628388268826?text=Hi%2C+I%27m+interested+in+your+product+%22Elektrim+Cantoni+IE1+Motor%22.+Can+I+ask+you+a+few+questions%3F" class="btn btn-info block-xs" target="_blank"><i class="fab fa-whatsapp"></i>&nbsp;&nbsp;Enquire via WhatsApp</a>
+
+                                        <hr class="spacer s visible-xs">
+
+                                        <a href="rfq.php?msg=Hi%2C%20I%27m%20interested%20in%20the%20product%20%22Elektrim+Cantoni+IE1+Motor%22%20from%20your%20website.%20Can%20I%20ask%20you%20a%20few%20questions%3F&id=1" class="btn btn-success block-xs">Request Quotation</a>
+
+                                    </div>
+
+
+
+
+
+                                    <!-- end box info product -->
+
+
+
+                                    <hr class="spacer l hidden-xs">
+
+                                    <hr class="spacer l hidden-xs">
+
+
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+
+
+
+
+
+
+
+
+                    <!-- <div class="product-description" id="full-table">
+
+    <div class="row">
+        <div class="col-md-12">
+            <h2>More Information</h2>
+            <hr>
+            <img src="image/bg-elektrim.jpg">
+        </div>
+    </div>
+    
+</div>
+
+<hr class="spacer m">
+<hr class="spacer l"> -->
+
+
+
+                    <div class="visible-xs">
+
+                        <a href="https://wa.me/628388268826?text=Hi%2C+I%27m+interested+in+your+product+%22Elektrim+Cantoni+IE1+Motor%22.+Can+I+ask+you+a+few+questions%3F" class="btn btn-primary block-xs" target="_blank"><i class="fab fa-whatsapp"></i>&nbsp;&nbsp;Enquire via WhatsApp</a>
+
+                        <hr class="spacer s visible-xs">
+
+                        <a href="rfq.php?msg=Hi%2C%20I%27m%20interested%20in%20the%20product%20%22Elektrim+Cantoni+IE1+Motor%22%20from%20your%20website.%20Can%20I%20ask%20you%20a%20few%20questions%3F&id=1" class="btn btn-primary block-xs">Request Quotation</a>
+
+                        <hr class="spacer l">
+
+                    </div>
+
+
+
+                    <div class="product-description">
+
+
+
+                        <div class="row">
+
+                            <div class="col-md-12">
+
+                                <h2 class="rri-black">Products in <span class="rri-red">Electric Motors</span> category</h2>
+
+                                <hr>
+
+
+
+
+
+
+
+
+
+                                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 text-center grid-item-wrapper match-height">
+
+                                    <div class=" grid-item">
+
+                                        <a href="view.php?url=yuema-sa"><img src="image/products/yuema-sa-b3.jpg" class="main"></a>
+
+                                        <div class="title rri-black rri-text-12 rri-lh-20">
+
+                                            <a href="view.php" class="">Yuema SA</a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+
+
+                                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 text-center grid-item-wrapper match-height">
+
+                                    <div class=" grid-item">
+
+                                        <a href="view.php?url=yuema-yal"><img src="image/products/yal-b3.jpg" class="main"></a>
+
+                                        <div class="title rri-black rri-text-12 rri-lh-20">
+
+                                            <a href="view.php" class="">Yuema YAL</a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+
+
+                                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 text-center grid-item-wrapper match-height">
+
+                                    <div class=" grid-item">
+
+                                        <a href="view.php?url=yuema-y3"><img src="image/products/y3b3.jpg" class="main"></a>
+
+                                        <div class="title rri-black rri-text-12 rri-lh-20">
+
+                                            <a href="view.php" class="">Yuema Y3</a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+
+
+                                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 text-center grid-item-wrapper match-height">
+
+                                    <div class=" grid-item">
+
+                                        <a href="view.php?url=yuema-yba"><img src="image/products/yba-b3.jpg" class="main"></a>
+
+                                        <div class="title rri-black rri-text-12 rri-lh-20">
+
+                                            <a href="view.php" class="">Yuema YBA</a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+
+
+                                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 text-center grid-item-wrapper match-height">
+
+                                    <div class=" grid-item">
+
+                                        <a href="view.php?url=yuema-yab"><img src="image/products/yab-b3.jpg" class="main"></a>
+
+                                        <div class="title rri-black rri-text-12 rri-lh-20">
+
+                                            <a href="view.php" class="">Yuema YAB</a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+
+
+                                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 text-center grid-item-wrapper match-height">
+
+                                    <div class=" grid-item">
+
+                                        <a href="view.php?url=yuema-y"><img src="image/products/y-series.jpg" class="main"></a>
+
+                                        <div class="title rri-black rri-text-12 rri-lh-20">
+
+                                            <a href="view.php" class="">Yuema Y</a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+
+
+                                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 text-center grid-item-wrapper match-height">
+
+                                    <div class=" grid-item">
+
+                                        <a href="view.php?url=yuema-y3a"><img src="image/products/y3a-b14.jpg" class="main"></a>
+
+                                        <div class="title rri-black rri-text-12 rri-lh-20">
+
+                                            <a href="view.php" class="">Yuema Y3A</a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+
+
+                                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 text-center grid-item-wrapper match-height">
+
+                                    <div class=" grid-item">
+
+                                        <a href="view.php?url=yuema-yu"><img src="image/products/yu1.jpg" class="main"></a>
+
+                                        <div class="title rri-black rri-text-12 rri-lh-20">
+
+                                            <a href="view.php" class="">Yuema YU</a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+
+
+                                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 text-center grid-item-wrapper match-height">
+
+                                    <div class=" grid-item">
+
+                                        <a href="view.php?url=yuema-ybd"><img src="image/products/ybd.jpg" class="main"></a>
+
+                                        <div class="title rri-black rri-text-12 rri-lh-20">
+
+                                            <a href="view.php" class="">Yuema YBD</a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+
+
+                                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 text-center grid-item-wrapper match-height">
+
+                                    <div class=" grid-item">
+
+                                        <a href="view.php?url=transmax-tal"><img src="image/products/tal-b3.jpg" class="main"></a>
+
+                                        <div class="title rri-black rri-text-12 rri-lh-20">
+
+                                            <a href="view.php" class="">Transmax TAL</a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+
+
+                                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 text-center grid-item-wrapper match-height">
+
+                                    <div class=" grid-item">
+
+                                        <a href="view.php?url=transmax-ta"><img src="image/products/ta-b3.jpg" class="main"></a>
+
+                                        <div class="title rri-black rri-text-12 rri-lh-20">
+
+                                            <a href="view.php" class="">Transmax TA</a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+
+
+                                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 text-center grid-item-wrapper match-height">
+
+                                    <div class=" grid-item">
+
+                                        <a href="view.php?url=transmax-tab"><img src="image/products/tab-b3.jpg" class="main"></a>
+
+                                        <div class="title rri-black rri-text-12 rri-lh-20">
+
+                                            <a href="view.php" class="">Transmax TAB</a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+
+
+                                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 text-center grid-item-wrapper match-height">
+
+                                    <div class=" grid-item">
+
+                                        <a href="view.php?url=quantum-vibrator-motors"><img src="image/products/quantum.jpg" class="main"></a>
+
+                                        <div class="title rri-black rri-text-12 rri-lh-20">
+
+                                            <a href="view.php" class="">Quantum Vibrator Motors</a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+
+
+                                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 text-center grid-item-wrapper match-height">
+
+                                    <div class=" grid-item">
+
+                                        <a href="view.php?url=teco-aesv1s-ie1-series"><img src="image/products/teco1.jpg" class="main"></a>
+
+                                        <div class="title rri-black rri-text-12 rri-lh-20">
+
+                                            <a href="view.php" class="">TECO AESV1S (IE1) Series</a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+
+
+
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+
+
 
                 </div>
 
-            </div>
 
-            <img src="image/indonesia.svg" class="img-responsive">
+
+
+
+                <!--Middle Part End-->
+
+
+
+                <!--Left Part Start -->
+
+                <aside class="col-sm-4 col-md-3 content-aside" id="column-left">
+
+
+
+                    <div class="module category-style rri-module">
+
+                        <h3 class="red-title bg-grey">Product Brand</h3>
+
+                        <a href="browse.php?brand=elektrim-cantoni#start" data-toggle="tooltip" title="See all products by this brand">
+
+
+
+                            <!-- revco dual logo :D  -->
+
+
+                            <img src="image/partner2.png" alt="Elektrim Cantoni">
+
+
+                        </a>
+
+                        <div class="rri-module-content text-center">
+
+                            Elektrim Cantoni
+                        </div>
+
+                    </div>
+
+
+
+
+
+                    <div class="module category-style rri-module">
+
+                        <h3 class="red-title bg-grey">Quick Links</h3>
+
+                        <div class="rri-module-content">
+
+                            <div class="item">
+
+                                <a href="browse.php">Back to product browser</a>
+
+                            </div>
+
+                            <div class="item">
+
+                                <a href="browse.php">Request a quotation for this product</a>
+
+                            </div>
+
+                            <div class="item">
+
+                                <a href="browse.php?brand=elektrim-cantoni#start">See all products by this brand</a>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <hr class="spacer s">
+
+
+
+                        <div class="sharethis-inline-share-buttons"></div>
+
+                    </div>
+
+
+
+
+
+
+
+
+                </aside>
+
+                <!--Left Part End -->
+
+            </div>
 
         </div>
 
         <!-- //Main Container -->
+
+
+
+        <br>
+
+        <br>
 
 
 
@@ -1987,7 +2618,7 @@ CATEGORY
 
                     <div id="search0" class="search input-group form-group">
 
-                        <input class="form-control mobile-search" type="text" value="" size="50" autocomplete="off" placeholder="Centrifugal pump..." name="search" required>
+                        <input class="form-control mobile-search" type="text" value="" size="50" autocomplete="off" placeholder="Oil pumps..." name="search" required>
 
                     </div>
 
@@ -2008,7 +2639,7 @@ CATEGORY
 
     
 
-Include Libs & Plugins
+<!-- Include Libs & Plugins
 ============================================ -->
         <!-- Placed at the end of the document so the pages load faster -->
         <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
@@ -2181,6 +2812,56 @@ Include Libs & Plugins
                 });
             });
         </script>
+
+
+
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+
+                $('.large-image').magnificPopup({
+
+                    items: [
+
+                        {
+                            src: 'image/products/elektrim-b35.jpg'
+                        },
+
+
+
+
+                        {
+                            src: 'image/products/elektrim-b5.jpg'
+                        },
+
+
+                        {
+                            src: 'image/products/elektrim-b34.jpg'
+                        },
+
+
+                        {
+                            src: 'image/products/elektrim-b3.jpg'
+                        },
+
+
+
+                    ],
+
+                    gallery: {
+                        enabled: true,
+                        preload: [0, 2]
+                    },
+
+                    type: 'image',
+
+                    mainClass: 'mfp-fade',
+
+                });
+
+            });
+        </script>
+
 
 
 </body>

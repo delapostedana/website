@@ -909,23 +909,7 @@
 
         <div class="col-md-12 text-center pt-50">
 
-            <hr class="spacer s">
 
-            <h1 class="rri-h2 rri-black">About PT. Roda Rollen Indonesia</h1>
-
-            <hr class="border-red-10">
-
-            <div class="row">
-
-                <div class="col-md-8 center-block">
-
-                    <p>PT RODA ROLLEN INDONESIA is a supplier for Mechanical dan Electrical engineering products for modern general industries. The company was established in 1998 and since then has become a stockist and representatives agents for many leading brands in industrial engineering from around the world. </p>
-
-                </div>
-
-            </div>
-
-            <img src="image/indonesia.svg" class="img-responsive">
 
         </div>
 

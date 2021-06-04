@@ -5419,6 +5419,22 @@ body .mfp-close {
   float: left;
 }
 
+.item-produk{
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    padding: 10px;
+    height: 300px;
+    line-height: 0px;
+}
+
+.item-produk a{
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.item-produk .title{
+  height: 40px;
+}
+
 @media (max-width: 767px) {
   .blog-listitem .blog-grid-1 .blog-item-inner .itemBlogImg {
     width: auto;

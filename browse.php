@@ -86,9 +86,19 @@
 </head>
 
 
-<body class="res layout-1">
+<body class="res layout-1 listing-page">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKNPCRC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
 
     <div id="wrapper" class="wrapper-fluid banners-effect-5">
+
+
+
+
+
         <!-- Header Container  -->
 
         <header id="header" class=" typeheader-2">
@@ -789,7 +799,7 @@
                                                                 <a href="index.php">Home</a>
                                                             </li>
                                                             <li class="hover 
-                                                                                                                    ">
+                                        active                                                                            ">
                                                                 <a href="browse.php" class="clearfix">
                                                                     <strong>Products</strong>
                                                                 </a>
@@ -801,7 +811,7 @@
                                                                 </a>
                                                             </li>
                                                             <li class="hover 
-                                        active                                    ">
+                                                                            ">
                                                                 <a href="brands.php" class="clearfix">
                                                                     <strong>Brands</strong>
                                                                 </a>
@@ -907,25 +917,571 @@
 
         <!-- Main Container  -->
 
-        <div class="col-md-12 text-center pt-50">
+        <div class="main-container container mt-50  mt-xs-20" id="start">
 
-            <hr class="spacer s">
 
-            <h1 class="rri-h2 rri-black">About PT. Roda Rollen Indonesia</h1>
-
-            <hr class="border-red-10">
 
             <div class="row">
 
-                <div class="col-md-8 center-block">
+                <!--Left Part Start -->
 
-                    <p>PT RODA ROLLEN INDONESIA is a supplier for Mechanical dan Electrical engineering products for modern general industries. The company was established in 1998 and since then has become a stockist and representatives agents for many leading brands in industrial engineering from around the world. </p>
+                <aside class="col-sm-4 col-md-3 content-aside" id="column-left">
+
+
+
+
+
+                    <div class="module category-style rri-module hidden-xs">
+
+                        <h3 class="red-title bg-grey">Categories</h3>
+
+                        <div class="rri-module-content">
+
+                            <div class="item">
+
+                                <a href="browse.php#start">All categories</a>
+
+                            </div>
+
+
+
+                            <div class="item">
+
+                                <a class="" href="browse.php?c=1#start">Electric Motors</a>
+
+                                <span class="rri-ccc rri-text-12">(15)</span>
+                            </div>
+
+
+                            <div class="item">
+
+                                <a class="" href="browse.php?c=2#start">Gear Reducers</a>
+
+                                <span class="rri-ccc rri-text-12">(16)</span>
+                            </div>
+
+
+                            <div class="item">
+
+                                <a class="" href="browse.php?c=5#start">Pumps</a>
+
+                                <span class="rri-ccc rri-text-12">(20)</span>
+                            </div>
+
+
+                            <div class="item">
+
+                                <a class="" href="browse.php?c=4#start">Handling Equipments</a>
+
+                                <span class="rri-ccc rri-text-12">(8)</span>
+                            </div>
+
+
+                            <div class="item">
+
+                                <a class="" href="browse.php?c=3#start">Inverters</a>
+
+                                <span class="rri-ccc rri-text-12">(10)</span>
+                            </div>
+
+
+                            <div class="item">
+
+                                <a class="" href="browse.php?c=6#start">Others</a>
+
+                                <span class="rri-ccc rri-text-12">(5)</span>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+                    <div class="module category-style rri-module hidden-xs">
+
+                        <h3 class="red-title bg-grey">Brands</h3>
+
+                        <div class="rri-module-content">
+
+                            <div class="item">
+
+                                <a href="browse.php#start">All brands</a>
+
+                            </div>
+
+
+
+                            <div class="item">
+
+                                <a class="" href="browse.php?brand=yuema#start">Yuema</a>
+
+                                <span class="rri-ccc rri-text-12">(26)</span>
+                            </div>
+
+
+                            <div class="item">
+
+                                <a class="" href="browse.php?brand=revco#start">Revco</a>
+
+                                <span class="rri-ccc rri-text-12">(7)</span>
+                            </div>
+
+
+                            <div class="item">
+
+                                <a class="" href="browse.php?brand=elektrim-cantoni#start">Elektrim Cantoni</a>
+
+                                <span class="rri-ccc rri-text-12">(1)</span>
+                            </div>
+
+
+                            <div class="item">
+
+                                <a class="" href="browse.php?brand=transmax#start">Transmax</a>
+
+                                <span class="rri-ccc rri-text-12">(8)</span>
+                            </div>
+
+
+                            <div class="item">
+
+                                <a class="" href="browse.php?brand=southern-cross#start">Southern Cross</a>
+
+                                <span class="rri-ccc rri-text-12">(2)</span>
+                            </div>
+
+
+                            <div class="item">
+
+                                <a class="" href="browse.php?brand=quantum#start">Quantum</a>
+
+                                <span class="rri-ccc rri-text-12">(1)</span>
+                            </div>
+
+
+                            <div class="item">
+
+                                <a class="" href="browse.php?brand=prestar#start">Prestar</a>
+
+                                <span class="rri-ccc rri-text-12">(1)</span>
+                            </div>
+
+
+                            <div class="item">
+
+                                <a class="" href="browse.php?brand=delta#start">Delta</a>
+
+                                <span class="rri-ccc rri-text-12">(8)</span>
+                            </div>
+
+
+                            <div class="item">
+
+                                <a class="" href="browse.php?brand=oriental-koshin#start">Oriental Koshin</a>
+
+                                <span class="rri-ccc rri-text-12">(3)</span>
+                            </div>
+
+
+                            <div class="item">
+
+                                <a class="" href="browse.php?brand=speck#start">Speck</a>
+
+                                <span class="rri-ccc rri-text-12">(5)</span>
+                            </div>
+
+
+                            <div class="item">
+
+                                <a class="" href="browse.php?brand=sihi#start">Sihi</a>
+
+                                <span class="rri-ccc rri-text-12">(4)</span>
+                            </div>
+
+
+                            <div class="item">
+
+                                <a class="" href="browse.php?brand=bishamon#start">Bishamon</a>
+
+                                <span class="rri-ccc rri-text-12">(5)</span>
+                            </div>
+
+
+                            <div class="item">
+
+                                <a class="" href="browse.php?brand=invt#start">INVT</a>
+
+                                <span class="rri-ccc rri-text-12">(2)</span>
+                            </div>
+
+
+                            <div class="item">
+
+                                <a class="" href="browse.php?brand=teco#start">TECO</a>
+
+                                <span class="rri-ccc rri-text-12">(1)</span>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+                </aside>
+
+                <!--Left Part End -->
+
+
+
+                <!--Middle Part Start-->
+
+                <div id="content" class="col-md-9 col-sm-8">
+
+                    <div class="products-category">
+
+
+
+                        <!-- Filters -->
+
+                        <div class="product-filter product-filter-top filters-panel">
+
+                            <div class="row">
+
+                                <div class="col-md-12 col-xs-12 view-mode">
+
+                                    <h3 class="title-category ">Browse Products</h3>
+
+                                </div>
+
+                                <div class="col-md-8" style="padding-top: 4px;">
+
+
+
+
+                                    <p>Showing <span class="rri-red">74</span> items from all brands and categories</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- //end Filters -->
+
+
+
+                        <!--changed listings-->
+
+                        <div class="products-list row nopadding-xs so-filter-gird">
+
+
+
+
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-4 text-center grid-item-wrapper match-height">
+
+                                <div class=" grid-item item-produk">
+
+                                    <a href="view.php?url=elektrim-cantoni-ie1-electric-motor"><img src="image/products/elektrim-b35.jpg" class="main"></a>
+
+                                    <div class="title rri-black">
+
+                                        <a href="view.php">Elektrim Cantoni IE1 Motor</a>
+
+                                    </div>
+                                    <div class="addtocart">
+                                        <a href="" class="btn btn-info"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-4 text-center grid-item-wrapper match-height">
+
+                                <div class=" grid-item item-produk">
+
+                                    <a href="view.php?url=yuema-sa"><img src="image/products/yuema-sa-b3.jpg" class="main"></a>
+
+                                    <div class="title rri-black">
+
+                                        <a href="view.php">Yuema SA</a>
+
+                                    </div>
+                                    <div class="addtocart">
+                                        <a href="" class="btn btn-info"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-4 text-center grid-item-wrapper match-height">
+
+                                <div class=" grid-item item-produk">
+
+                                    <a href="view.php?url=yuema-yal"><img src="image/products/yal-b3.jpg" class="main"></a>
+
+                                    <div class="title rri-black">
+
+                                        <a href="view.php">Yuema YAL</a>
+
+                                    </div>
+                                    <div class="addtocart">
+                                        <a href="" class="btn btn-info"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-4 text-center grid-item-wrapper match-height">
+
+                                <div class=" grid-item item-produk">
+
+                                    <a href="view.php?url=yuema-helical-gear-bevel-tr"><img src="image/products/yuema-tr.jpg" class="main"></a>
+
+                                    <div class="title rri-black">
+
+                                        <a href="view.php">Yuema Helical Gear TR</a>
+
+                                    </div>
+                                    <div class="addtocart">
+                                        <a href="" class="btn btn-info"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-4 text-center grid-item-wrapper match-height">
+
+                                <div class=" grid-item item-produk">
+
+                                    <a href="view.php?url=yuema-single-stage-helical-gear-trx"><img src="image/products/yuema-trx.jpg" class="main"></a>
+
+                                    <div class="title rri-black">
+
+                                        <a href="view.php">Yuema Single Stage Helical Gear TRX</a>
+
+                                    </div>
+                                    <div class="addtocart">
+                                        <a href="" class="btn btn-info"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-4 text-center grid-item-wrapper match-height">
+
+                                <div class=" grid-item item-produk">
+
+                                    <a href="view.php?url=yuema-mrv"><img src="image/products/transmax-mrv.jpg" class="main"></a>
+
+                                    <div class="title rri-black">
+
+                                        <a href="view.php">Yuema Worm Gear MRV</a>
+
+                                    </div>
+                                    <div class="addtocart">
+                                        <a href="" class="btn btn-info"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-4 text-center grid-item-wrapper match-height">
+
+                                <div class=" grid-item item-produk">
+
+                                    <a href="view.php?url=yuema-mini-helical-gear-g3"><img src="image/products/yuema-g3ls.jpg" class="main"></a>
+
+                                    <div class="title rri-black">
+
+                                        <a href="view.php">Yuema Mini Helical Gear G3</a>
+
+                                    </div>
+                                    <div class="addtocart">
+                                        <a href="" class="btn btn-info"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-4 text-center grid-item-wrapper match-height">
+
+                                <div class=" grid-item item-produk">
+
+                                    <a href="view.php?url=yuema-helical-gear-bevel-tf"><img src="image/products/yuema-tf.jpg" class="main"></a>
+
+                                    <div class="title rri-black">
+
+                                        <a href="view.php">Yuema Parallel Shaft Helical Gear TF</a>
+
+                                    </div>
+                                    <div class="addtocart">
+                                        <a href="" class="btn btn-info"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-4 text-center grid-item-wrapper match-height">
+
+                                <div class=" grid-item item-produk">
+
+                                    <a href="view.php?url=yuema-hypoid-gear-tkm"><img src="image/products/yuema-tkm.jpg" class="main"></a>
+
+                                    <div class="title rri-black">
+
+                                        <a href="view.php">Yuema Helical Hypoid Gear TKM</a>
+
+                                    </div>
+                                    <div class="addtocart">
+                                        <a href="" class="btn btn-info"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-4 text-center grid-item-wrapper match-height">
+
+                                <div class=" grid-item item-produk">
+
+                                    <a href="view.php?url=yuema-y3"><img src="image/products/y3b3.jpg" class="main"></a>
+
+                                    <div class="title rri-black">
+
+                                        <a href="view.php">Yuema Y3</a>
+
+                                    </div>
+                                    <div class="addtocart">
+                                        <a href="" class="btn btn-info"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-4 text-center grid-item-wrapper match-height">
+
+                                <div class=" grid-item item-produk">
+
+                                    <a href="view.php?url=yuema-yba"><img src="image/products/yba-b3.jpg" class="main"></a>
+
+                                    <div class="title rri-black">
+
+                                        <a href="view.php">Yuema YBA</a>
+
+                                    </div>
+                                    <div class="addtocart">
+                                        <a href="" class="btn btn-info"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-4 text-center grid-item-wrapper match-height">
+
+                                <div class=" grid-item item-produk">
+
+                                    <a href="view.php?url=yuema-yab"><img src="image/products/yab-b3.jpg" class="main"></a>
+
+                                    <div class="title rri-black">
+
+                                        <a href="view.php">Yuema YAB</a>
+
+                                    </div>
+                                    <div class="addtocart">
+                                        <a href="" class="btn btn-info"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!--// End Changed listings-->
+
+                        <nav aria-label="...">
+                            <ul class="pagination">
+                                <li class="page-item disabled">
+                                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                                </li>
+                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item" aria-current="page">
+                                    <a class="page-link" href="#">2</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">Next</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <!-- Filters -->
+
+                        <div class="product-filter product-filter-bottom filters-panel">
+
+                            <div class="row">
+
+                                <div class="col-sm-6 text-left"></div>
+
+                                <div class="col-sm-6 text-right">Showing <span class="rri-red">12</span> of <span class="rri-red">74</span> results</div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- //end Filters -->
+
+
+
+                    </div>
+
+
 
                 </div>
 
-            </div>
 
-            <img src="image/indonesia.svg" class="img-responsive">
+
+
+
+                <!--Middle Part End-->
+
+            </div>
 
         </div>
 
@@ -2008,7 +2564,7 @@ CATEGORY
 
     
 
-Include Libs & Plugins
+<!-- Include Libs & Plugins
 ============================================ -->
         <!-- Placed at the end of the document so the pages load faster -->
         <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>

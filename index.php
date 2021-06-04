@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
 
@@ -15,7 +16,7 @@
     <!-- Favicon
     ============================================ -->
 
-   
+
 
     <!-- Libs CSS
     ============================================ -->
@@ -61,14 +62,12 @@
     </style>
 
 
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
-<script src="https://kit.fontawesome.com/293cfea4f1.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/293cfea4f1.js" crossorigin="anonymous"></script>
 
 
-    <script type='text/javascript'
-        src='//platform-api.sharethis.com/js/sharethis.js#property=5d4dfd343387b20012d7745e&product=inline-share-buttons'
-        async='async'></script>
+    <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5d4dfd343387b20012d7745e&product=inline-share-buttons' async='async'></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-99632706-4"></script>
@@ -96,12 +95,12 @@
             <div class="header-middle hidden-compact">
                 <div class="container">
                     <div class="row">
-                        <div class="bg-info col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <div class="logo ">
-                                <h4>LOGO</h4>
-                                <!-- <a href="index.php"> 
+                                <!-- <h4>LOGO</h4> -->
+                                <a href="index.php">
                                     <img src="image/logo.png" title="PT. Roda Rollen Indonesia" alt="PT. Roda Rollen Indonesia" />
-                                    </a> -->
+                                </a>
                             </div>
                         </div>
 
@@ -113,26 +112,23 @@
                                     <form method="get" action="browse.php#start">
                                         <div id="search0" class="search input-group form-group">
 
-                                            <input class="autosearch-input form-control" type="text" value="" size="50"
-                                                autocomplete="off" placeholder="Search.." name="search" required>
+                                            <input class="autosearch-input form-control" type="text" value="" size="50" autocomplete="off" placeholder="Search.." name="search" required>
 
-                                            <button type="submit" class="button-search btn btn-primary"><i
-                                                    class="fa fa-search"></i></button>
-                                                    
+                                            <button type="submit" class="button-search btn btn-primary"><i class="fa fa-search"></i></button>
+
 
                                         </div>
                                     </form>
                                 </div>
-                                                                
+
                             </div>
 
                         </div>
                         <div class="col-lg-1 col-md-8 col-sm-12 col-xs-12 shopping-cart middle-right hidden-xs">
-                            <a href="#" data-toggle="modal"
-                                data-target="#contact-us" class="clearfix">
-                                <strong><i class="fas fa-shopping-cart" style="font-size:30pt; color: #339af0"></i></strong>
+                            <a href="cart.php" class="clearfix">
+                                <strong><i class="fas fa-shopping-cart" style="font-size:20pt; color: #878787; margin-top: 15px;"> </i> <span class="badge" style="background-color: red; margin-left:-25px; margin-top:-55px">2</span></strong>
                             </a>
-                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -168,8 +164,7 @@
                                                 </div>
 
                                                 <div class="navbar-header hidden-xs">
-                                                    <button type="button" id="show-verticalmenu" data-toggle="collapse"
-                                                        class="navbar-toggle">
+                                                    <button type="button" id="show-verticalmenu" data-toggle="collapse" class="navbar-toggle">
                                                         <i class="fa fa-bars"></i>
                                                         <span> All Categories </span>
                                                     </button>
@@ -191,22 +186,18 @@
                                                                             <div class="row">
                                                                                 <div class="col-sm-12">
                                                                                     <div class="row">
-                                                                                        <div
-                                                                                            class="col-md-6 static-menu">
+                                                                                        <div class="col-md-6 static-menu">
                                                                                             <div class="menu">
                                                                                                 <ul>
                                                                                                     <li>
-                                                                                                        <a href="browse.php?c=1&t=1#start"
-                                                                                                            class="main-menu bb-dashed-ccc">1
+                                                                                                        <a href="browse.php?c=1&t=1#start" class="main-menu bb-dashed-ccc">1
                                                                                                             Phase
                                                                                                             Motors</a>
                                                                                                         <ul>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=yuema-yal">Yuema
+                                                                                                            <li><a href="view.php?url=yuema-yal">Yuema
                                                                                                                     YAL</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=transmax-tal">Transmax
+                                                                                                            <li><a href="view.php?url=transmax-tal">Transmax
                                                                                                                     TAL</a>
                                                                                                             </li>
                                                                                                         </ul>
@@ -216,43 +207,34 @@
                                                                                             <div class="menu">
                                                                                                 <ul>
                                                                                                     <li>
-                                                                                                        <a href="browse.php?c=1&t=2#start"
-                                                                                                            class="main-menu bb-dashed-ccc">3
+                                                                                                        <a href="browse.php?c=1&t=2#start" class="main-menu bb-dashed-ccc">3
                                                                                                             Phase
                                                                                                             Motors</a>
                                                                                                         <ul>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=elektrim-cantoni-ie1-electric-motor">Elektrim
+                                                                                                            <li><a href="view.php?url=elektrim-cantoni-ie1-electric-motor">Elektrim
                                                                                                                     Cantoni
                                                                                                                     IE1
                                                                                                                     Motor</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=transmax-ta">Transmax
+                                                                                                            <li><a href="view.php?url=transmax-ta">Transmax
                                                                                                                     TA</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=yuema-y">Yuema
+                                                                                                            <li><a href="view.php?url=yuema-y">Yuema
                                                                                                                     Y</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=yuema-sa">Yuema
+                                                                                                            <li><a href="view.php?url=yuema-sa">Yuema
                                                                                                                     SA</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=yuema-y3">Yuema
+                                                                                                            <li><a href="view.php?url=yuema-y3">Yuema
                                                                                                                     Y3</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=yuema-y3a">Yuema
+                                                                                                            <li><a href="view.php?url=yuema-y3a">Yuema
                                                                                                                     Y3A</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=yuema-yu">Yuema
+                                                                                                            <li><a href="view.php?url=yuema-yu">Yuema
                                                                                                                     YU</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=teco-aesv1s-ie1-series">TECO
+                                                                                                            <li><a href="view.php?url=teco-aesv1s-ie1-series">TECO
                                                                                                                     AESV1S
                                                                                                                     (IE1)
                                                                                                                     Series</a>
@@ -262,29 +244,23 @@
                                                                                                 </ul>
                                                                                             </div>
                                                                                         </div>
-                                                                                        <div
-                                                                                            class="col-md-6 static-menu">
+                                                                                        <div class="col-md-6 static-menu">
                                                                                             <div class="menu">
                                                                                                 <ul>
                                                                                                     <li>
-                                                                                                        <a href="browse.php?c=1&t=3#start"
-                                                                                                            class="main-menu bb-dashed-ccc">Brake
+                                                                                                        <a href="browse.php?c=1&t=3#start" class="main-menu bb-dashed-ccc">Brake
                                                                                                             Motors</a>
                                                                                                         <ul>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=transmax-tab">Transmax
+                                                                                                            <li><a href="view.php?url=transmax-tab">Transmax
                                                                                                                     TAB</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=yuema-yab">Yuema
+                                                                                                            <li><a href="view.php?url=yuema-yab">Yuema
                                                                                                                     YAB</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=yuema-yba">Yuema
+                                                                                                            <li><a href="view.php?url=yuema-yba">Yuema
                                                                                                                     YBA</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=yuema-ybd">Yuema
+                                                                                                            <li><a href="view.php?url=yuema-ybd">Yuema
                                                                                                                     YBD</a>
                                                                                                             </li>
                                                                                                         </ul>
@@ -294,12 +270,10 @@
                                                                                             <div class="menu">
                                                                                                 <ul>
                                                                                                     <li>
-                                                                                                        <a href="browse.php?c=1&t=4#start"
-                                                                                                            class="main-menu bb-dashed-ccc">Vibrator
+                                                                                                        <a href="browse.php?c=1&t=4#start" class="main-menu bb-dashed-ccc">Vibrator
                                                                                                             Motors</a>
                                                                                                         <ul>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=quantum-vibrator-motors">Quantum
+                                                                                                            <li><a href="view.php?url=quantum-vibrator-motors">Quantum
                                                                                                                     Vibrator
                                                                                                                     Motors</a>
                                                                                                             </li>
@@ -308,13 +282,10 @@
                                                                                                 </ul>
                                                                                             </div>
                                                                                         </div>
-                                                                                        <div
-                                                                                            class="col-md-12 static-menu">
+                                                                                        <div class="col-md-12 static-menu">
                                                                                             <hr>
                                                                                             <div class="menu">
-                                                                                                <a
-                                                                                                    href="browse.php?c=1#start"><i
-                                                                                                        class="fa fa-search"></i>
+                                                                                                <a href="browse.php?c=1#start"><i class="fa fa-search"></i>
                                                                                                     Browse all Electric
                                                                                                     Motor products</a>
                                                                                             </div>
@@ -337,79 +308,67 @@
                                                                             <div class="row">
                                                                                 <div class="col-sm-12">
                                                                                     <div class="row">
-                                                                                        <div
-                                                                                            class="col-md-6 static-menu">
+                                                                                        <div class="col-md-6 static-menu">
                                                                                             <div class="menu">
                                                                                                 <ul>
                                                                                                     <li>
-                                                                                                        <a href="browse.php?c=2&t=6#start"
-                                                                                                            class="main-menu">Helical
+                                                                                                        <a href="browse.php?c=2&t=6#start" class="main-menu">Helical
                                                                                                             Gears</a>
                                                                                                         <ul>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=transmax-mini-helical-gear-g3">Transmax
+                                                                                                            <li><a href="view.php?url=transmax-mini-helical-gear-g3">Transmax
                                                                                                                     Mini
                                                                                                                     Helical
                                                                                                                     Gear
                                                                                                                     G3</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=transmax-tr-helical-gear">Transmax
+                                                                                                            <li><a href="view.php?url=transmax-tr-helical-gear">Transmax
                                                                                                                     TR
                                                                                                                     Helical
                                                                                                                     Gear</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=transmax-helical-gear-bevel-tf">Transmax
+                                                                                                            <li><a href="view.php?url=transmax-helical-gear-bevel-tf">Transmax
                                                                                                                     Parallel
                                                                                                                     Shaft
                                                                                                                     Helical
                                                                                                                     Gear
                                                                                                                     TF</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=yuema-mini-helical-gear-chc">Yuema
+                                                                                                            <li><a href="view.php?url=yuema-mini-helical-gear-chc">Yuema
                                                                                                                     Mini
                                                                                                                     Helical
                                                                                                                     Gear
                                                                                                                     CHC</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=yuema-mini-helical-gear-g3">Yuema
+                                                                                                            <li><a href="view.php?url=yuema-mini-helical-gear-g3">Yuema
                                                                                                                     Mini
                                                                                                                     Helical
                                                                                                                     Gear
                                                                                                                     G3</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=yuema-helical-gear-bevel-tf">Yuema
+                                                                                                            <li><a href="view.php?url=yuema-helical-gear-bevel-tf">Yuema
                                                                                                                     Parallel
                                                                                                                     Shaft
                                                                                                                     Helical
                                                                                                                     Gear
                                                                                                                     TF</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=yuema-helical-bevel-gear-tk">Yuema
+                                                                                                            <li><a href="view.php?url=yuema-helical-bevel-gear-tk">Yuema
                                                                                                                     Helical
                                                                                                                     Bevel
                                                                                                                     Gear
                                                                                                                     TK</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=yuema-helical-gear-bevel-tr">Yuema
+                                                                                                            <li><a href="view.php?url=yuema-helical-gear-bevel-tr">Yuema
                                                                                                                     Helical
                                                                                                                     Gear
                                                                                                                     TR</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=yuema-helical-worm-gear-ts">Yuema
+                                                                                                            <li><a href="view.php?url=yuema-helical-worm-gear-ts">Yuema
                                                                                                                     Helical-Worm
                                                                                                                     Gear
                                                                                                                     TS</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=yuema-single-stage-helical-gear-trx">Yuema
+                                                                                                            <li><a href="view.php?url=yuema-single-stage-helical-gear-trx">Yuema
                                                                                                                     Single
                                                                                                                     Stage
                                                                                                                     Helical
@@ -421,29 +380,24 @@
                                                                                                 </ul>
                                                                                             </div>
                                                                                         </div>
-                                                                                        <div
-                                                                                            class="col-md-6 static-menu">
+                                                                                        <div class="col-md-6 static-menu">
                                                                                             <div class="menu">
                                                                                                 <ul>
                                                                                                     <li>
-                                                                                                        <a href="browse.php?c=2&t=5#start"
-                                                                                                            class="main-menu">Worm
+                                                                                                        <a href="browse.php?c=2&t=5#start" class="main-menu">Worm
                                                                                                             Gears</a>
                                                                                                         <ul>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=revco-worm-gear-wp">Revco
+                                                                                                            <li><a href="view.php?url=revco-worm-gear-wp">Revco
                                                                                                                     Worm
                                                                                                                     Gear
                                                                                                                     WP</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=yuema-mrv">Yuema
+                                                                                                            <li><a href="view.php?url=yuema-mrv">Yuema
                                                                                                                     Worm
                                                                                                                     Gear
                                                                                                                     MRV</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=yuema-mwm">Yuema
+                                                                                                            <li><a href="view.php?url=yuema-mwm">Yuema
                                                                                                                     Worm
                                                                                                                     Gear
                                                                                                                     MWM</a>
@@ -455,17 +409,14 @@
                                                                                             <div class="menu">
                                                                                                 <ul>
                                                                                                     <li>
-                                                                                                        <a href="browse.php?c=1&t=3#start"
-                                                                                                            class="main-menu bb-dashed-ccc">Variators</a>
+                                                                                                        <a href="browse.php?c=1&t=3#start" class="main-menu bb-dashed-ccc">Variators</a>
                                                                                                         <ul>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=transmax-variator-tb">Transmax
+                                                                                                            <li><a href="view.php?url=transmax-variator-tb">Transmax
                                                                                                                     Speed
                                                                                                                     Variator
                                                                                                                     TB</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=yuema-variator-udl">Yuema
+                                                                                                            <li><a href="view.php?url=yuema-variator-udl">Yuema
                                                                                                                     Speed
                                                                                                                     Variator
                                                                                                                     UDL</a>
@@ -477,12 +428,10 @@
                                                                                             <div class="menu">
                                                                                                 <ul>
                                                                                                     <li>
-                                                                                                        <a href="browse.php?c=2&t=9#start"
-                                                                                                            class="main-menu">Hypoid
+                                                                                                        <a href="browse.php?c=2&t=9#start" class="main-menu">Hypoid
                                                                                                             Gears</a>
                                                                                                         <ul>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=yuema-hypoid-gear-tkm">Yuema
+                                                                                                            <li><a href="view.php?url=yuema-hypoid-gear-tkm">Yuema
                                                                                                                     Helical
                                                                                                                     Hypoid
                                                                                                                     Gear
@@ -493,13 +442,10 @@
                                                                                                 </ul>
                                                                                             </div>
                                                                                         </div>
-                                                                                        <div
-                                                                                            class="col-md-12 static-menu">
+                                                                                        <div class="col-md-12 static-menu">
                                                                                             <hr>
                                                                                             <div class="menu">
-                                                                                                <a
-                                                                                                    href="browse.php?c=2#start"><i
-                                                                                                        class="fa fa-search"></i>
+                                                                                                <a href="browse.php?c=2#start"><i class="fa fa-search"></i>
                                                                                                     Browse all Gear
                                                                                                     Reducer products</a>
                                                                                             </div>
@@ -522,38 +468,31 @@
                                                                             <div class="row">
                                                                                 <div class="col-sm-12">
                                                                                     <div class="row">
-                                                                                        <div
-                                                                                            class="col-md-6 static-menu">
+                                                                                        <div class="col-md-6 static-menu">
                                                                                             <div class="menu">
                                                                                                 <ul>
                                                                                                     <li>
-                                                                                                        <a href="browse.php?b=3#start"
-                                                                                                            class="main-menu">Bishamon</a>
+                                                                                                        <a href="browse.php?b=3#start" class="main-menu">Bishamon</a>
                                                                                                         <ul>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=bishamon-hand-pallet">Bishamon
+                                                                                                            <li><a href="view.php?url=bishamon-hand-pallet">Bishamon
                                                                                                                     Hand
                                                                                                                     Pallet</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=bishamon-mobile-table-lift-bx">Bishamon
+                                                                                                            <li><a href="view.php?url=bishamon-mobile-table-lift-bx">Bishamon
                                                                                                                     Mobile
                                                                                                                     Table
                                                                                                                     Lift
                                                                                                                     BX</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=bishamon-skid-lift-lv">Bishamon
+                                                                                                            <li><a href="view.php?url=bishamon-skid-lift-lv">Bishamon
                                                                                                                     Skid
                                                                                                                     Lift
                                                                                                                     LV</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=bishamon-stacker">Bishamon
+                                                                                                            <li><a href="view.php?url=bishamon-stacker">Bishamon
                                                                                                                     Stacker</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=bishamon-table-lift-nx/x">Bishamon
+                                                                                                            <li><a href="view.php?url=bishamon-table-lift-nx/x">Bishamon
                                                                                                                     Table
                                                                                                                     Lift
                                                                                                                     NX/X</a>
@@ -563,21 +502,17 @@
                                                                                                 </ul>
                                                                                             </div>
                                                                                         </div>
-                                                                                        <div
-                                                                                            class="col-md-6 static-menu">
+                                                                                        <div class="col-md-6 static-menu">
                                                                                             <div class="menu">
                                                                                                 <ul>
                                                                                                     <li>
-                                                                                                        <a href="browse.php?b=6#start"
-                                                                                                            class="main-menu">Revco</a>
+                                                                                                        <a href="browse.php?b=6#start" class="main-menu">Revco</a>
                                                                                                         <ul>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=revco-hand-pallet">Revco
+                                                                                                            <li><a href="view.php?url=revco-hand-pallet">Revco
                                                                                                                     Hand
                                                                                                                     Pallet</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=revco-hand-truck">Revco
+                                                                                                            <li><a href="view.php?url=revco-hand-truck">Revco
                                                                                                                     Hand
                                                                                                                     Truck</a>
                                                                                                             </li>
@@ -588,11 +523,9 @@
                                                                                             <div class="menu">
                                                                                                 <ul>
                                                                                                     <li>
-                                                                                                        <a href="browse.php?b=9#start"
-                                                                                                            class="main-menu">Prestar</a>
+                                                                                                        <a href="browse.php?b=9#start" class="main-menu">Prestar</a>
                                                                                                         <ul>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=prestar-hand-truck">Prestar
+                                                                                                            <li><a href="view.php?url=prestar-hand-truck">Prestar
                                                                                                                     Hand
                                                                                                                     Truck</a>
                                                                                                             </li>
@@ -601,13 +534,10 @@
                                                                                                 </ul>
                                                                                             </div>
                                                                                         </div>
-                                                                                        <div
-                                                                                            class="col-md-12 static-menu">
+                                                                                        <div class="col-md-12 static-menu">
                                                                                             <hr>
                                                                                             <div class="menu">
-                                                                                                <a
-                                                                                                    href="browse.php?c=4#start"><i
-                                                                                                        class="fa fa-search"></i>
+                                                                                                <a href="browse.php?c=4#start"><i class="fa fa-search"></i>
                                                                                                     Browse all Handling
                                                                                                     Equipment
                                                                                                     products</a>
@@ -622,8 +552,7 @@
                                                                 <li class="item-vertical with-sub-menu hover">
                                                                     <p class="close-menu"></p>
                                                                     <a href="browse.php?c=3#start" class="clearfix">
-                                                                        <i
-                                                                            class="fas fa-charging-station root-icon"></i>
+                                                                        <i class="fas fa-charging-station root-icon"></i>
                                                                         <span>Inverters</span>
                                                                         <i class="fas fa-angle-right"></i>
                                                                     </a>
@@ -632,59 +561,49 @@
                                                                             <div class="row">
                                                                                 <div class="col-md-12">
                                                                                     <div class="row">
-                                                                                        <div
-                                                                                            class="col-md-6 static-menu">
+                                                                                        <div class="col-md-6 static-menu">
                                                                                             <div class="menu">
                                                                                                 <ul>
                                                                                                     <li>
-                                                                                                        <a href="browse.php?b=14#start"
-                                                                                                            class="main-menu">Delta</a>
+                                                                                                        <a href="browse.php?b=14#start" class="main-menu">Delta</a>
                                                                                                         <ul>
 
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=delta-inverter-vfd-el">Delta
+                                                                                                            <li><a href="view.php?url=delta-inverter-vfd-el">Delta
                                                                                                                     Inverter
                                                                                                                     VFD
                                                                                                                     EL</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=delta-inverter-vfd-e">Delta
+                                                                                                            <li><a href="view.php?url=delta-inverter-vfd-e">Delta
                                                                                                                     Inverter
                                                                                                                     VFD
                                                                                                                     E</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=delta-inverter-vfd-c">Delta
+                                                                                                            <li><a href="view.php?url=delta-inverter-vfd-c">Delta
                                                                                                                     Inverter
                                                                                                                     VFD
                                                                                                                     C</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=delta-inverter-vfd-b">Delta
+                                                                                                            <li><a href="view.php?url=delta-inverter-vfd-b">Delta
                                                                                                                     Inverter
                                                                                                                     VFD
                                                                                                                     B</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=delta-inverter-vfd-f">Delta
+                                                                                                            <li><a href="view.php?url=delta-inverter-vfd-f">Delta
                                                                                                                     Inverter
                                                                                                                     VFD
                                                                                                                     F</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=delta-inverter-vfd-l">Delta
+                                                                                                            <li><a href="view.php?url=delta-inverter-vfd-l">Delta
                                                                                                                     Inverter
                                                                                                                     VFD
                                                                                                                     L</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=delta-inverter-vfd-m">Delta
+                                                                                                            <li><a href="view.php?url=delta-inverter-vfd-m">Delta
                                                                                                                     Inverter
                                                                                                                     VFD
                                                                                                                     M</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=delta-inverter-vfd-s">Delta
+                                                                                                            <li><a href="view.php?url=delta-inverter-vfd-s">Delta
                                                                                                                     Inverter
                                                                                                                     VFD
                                                                                                                     S</a>
@@ -694,22 +613,18 @@
                                                                                                 </ul>
                                                                                             </div>
                                                                                         </div>
-                                                                                        <div
-                                                                                            class="col-md-6 static-menu">
+                                                                                        <div class="col-md-6 static-menu">
                                                                                             <div class="menu">
                                                                                                 <ul>
                                                                                                     <li>
-                                                                                                        <a href="browse.php?b=16#start"
-                                                                                                            class="main-menu">INVT</a>
+                                                                                                        <a href="browse.php?b=16#start" class="main-menu">INVT</a>
                                                                                                         <ul>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=invt-inverter-gd-20">INVT
+                                                                                                            <li><a href="view.php?url=invt-inverter-gd-20">INVT
                                                                                                                     Inverter
                                                                                                                     GD
                                                                                                                     20</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=invt-inverter-gd-10">INVT
+                                                                                                            <li><a href="view.php?url=invt-inverter-gd-10">INVT
                                                                                                                     Inverter
                                                                                                                     GD
                                                                                                                     10</a>
@@ -719,13 +634,10 @@
                                                                                                 </ul>
                                                                                             </div>
                                                                                         </div>
-                                                                                        <div
-                                                                                            class="col-md-12 static-menu">
+                                                                                        <div class="col-md-12 static-menu">
                                                                                             <hr>
                                                                                             <div class="menu">
-                                                                                                <a
-                                                                                                    href="browse.php?c=3#start"><i
-                                                                                                        class="fa fa-search"></i>
+                                                                                                <a href="browse.php?c=3#start"><i class="fa fa-search"></i>
                                                                                                     Browse all Inverter
                                                                                                     products</a>
                                                                                             </div>
@@ -748,38 +660,31 @@
                                                                             <div class="row">
                                                                                 <div class="col-sm-12">
                                                                                     <div class="row">
-                                                                                        <div
-                                                                                            class="col-md-4 static-menu">
+                                                                                        <div class="col-md-4 static-menu">
                                                                                             <div class="menu">
                                                                                                 <ul>
                                                                                                     <li>
-                                                                                                        <a href="browse.php?b=15#start"
-                                                                                                            class="main-menu">Gear
+                                                                                                        <a href="browse.php?b=15#start" class="main-menu">Gear
                                                                                                             Pumps</a>
                                                                                                         <ul>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=koshin-gl">Koshin
+                                                                                                            <li><a href="view.php?url=koshin-gl">Koshin
                                                                                                                     GL</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=koshin-pump-gb/gc">Koshin
+                                                                                                            <li><a href="view.php?url=koshin-pump-gb/gc">Koshin
                                                                                                                     Pump
                                                                                                                     GB/GC</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=yuema-gear-pump-2cy">Yuema
+                                                                                                            <li><a href="view.php?url=yuema-gear-pump-2cy">Yuema
                                                                                                                     Gear
                                                                                                                     Pump
                                                                                                                     2CY</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=yuema-gear-pump-kcb">Yuema
+                                                                                                            <li><a href="view.php?url=yuema-gear-pump-kcb">Yuema
                                                                                                                     Gear
                                                                                                                     Pump
                                                                                                                     KCB</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=yuema-gear-pump-ycb">Yuema
+                                                                                                            <li><a href="view.php?url=yuema-gear-pump-ycb">Yuema
                                                                                                                     Gear
                                                                                                                     Pump
                                                                                                                     YCB</a>
@@ -791,12 +696,10 @@
                                                                                             <div class="menu">
                                                                                                 <ul>
                                                                                                     <li>
-                                                                                                        <a href="browse.php?c=5&t=8#start"
-                                                                                                            class="main-menu">Fill
+                                                                                                        <a href="browse.php?c=5&t=8#start" class="main-menu">Fill
                                                                                                             Pumps</a>
                                                                                                         <ul>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=koshin-fill-pump-(fa,-fd,-fr)">Koshin
+                                                                                                            <li><a href="view.php?url=koshin-fill-pump-(fa,-fd,-fr)">Koshin
                                                                                                                     Fill
                                                                                                                     Pump
                                                                                                                     (FA,
@@ -808,42 +711,33 @@
                                                                                                 </ul>
                                                                                             </div>
                                                                                         </div>
-                                                                                        <div
-                                                                                            class="col-md-4 static-menu">
+                                                                                        <div class="col-md-4 static-menu">
                                                                                             <div class="menu">
                                                                                                 <ul>
                                                                                                     <li>
-                                                                                                        <a href="browse.php?c=5&t=11#start"
-                                                                                                            class="main-menu">Multi
+                                                                                                        <a href="browse.php?c=5&t=11#start" class="main-menu">Multi
                                                                                                             Stage
                                                                                                             Pumps</a>
                                                                                                         <ul>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=sihi-akh/aoh">Sihi
+                                                                                                            <li><a href="view.php?url=sihi-akh/aoh">Sihi
                                                                                                                     AKH/AOH</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=sihi-ceh">Sihi
+                                                                                                            <li><a href="view.php?url=sihi-ceh">Sihi
                                                                                                                     CEH</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=sihi-mssa">Sihi
+                                                                                                            <li><a href="view.php?url=sihi-mssa">Sihi
                                                                                                                     MSSA</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=speck-ask">Speck
+                                                                                                            <li><a href="view.php?url=speck-ask">Speck
                                                                                                                     ASK</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=speck-es">Speck
+                                                                                                            <li><a href="view.php?url=speck-es">Speck
                                                                                                                     ES</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=speck-sk">Speck
+                                                                                                            <li><a href="view.php?url=speck-sk">Speck
                                                                                                                     SK</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=yuema-pump-vortex">Yuema
+                                                                                                            <li><a href="view.php?url=yuema-pump-vortex">Yuema
                                                                                                                     Pump
                                                                                                                     Vortex</a>
                                                                                                             </li>
@@ -852,40 +746,32 @@
                                                                                                 </ul>
                                                                                             </div>
                                                                                         </div>
-                                                                                        <div
-                                                                                            class="col-md-4 static-menu">
+                                                                                        <div class="col-md-4 static-menu">
                                                                                             <div class="menu">
                                                                                                 <ul>
                                                                                                     <li>
-                                                                                                        <a href="browse.php?c=5&t=10#start"
-                                                                                                            class="main-menu">Centrifugal
+                                                                                                        <a href="browse.php?c=5&t=10#start" class="main-menu">Centrifugal
                                                                                                             Pumps</a>
                                                                                                         <ul>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=sihi-zlnd">Sihi
+                                                                                                            <li><a href="view.php?url=sihi-zlnd">Sihi
                                                                                                                     ZLND</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=southern-cross-iso-pro">Southern
+                                                                                                            <li><a href="view.php?url=southern-cross-iso-pro">Southern
                                                                                                                     Cross
                                                                                                                     ISO
                                                                                                                     Pro</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=southern-cross-sovereign">Southern
+                                                                                                            <li><a href="view.php?url=southern-cross-sovereign">Southern
                                                                                                                     Cross
                                                                                                                     Sovereign</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=speck-toe-gn">Speck
+                                                                                                            <li><a href="view.php?url=speck-toe-gn">Speck
                                                                                                                     TOE-GN</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=transmax-xo">Transmax
+                                                                                                            <li><a href="view.php?url=transmax-xo">Transmax
                                                                                                                     XO</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=yuema-xa">Yuema
+                                                                                                            <li><a href="view.php?url=yuema-xa">Yuema
                                                                                                                     XA</a>
                                                                                                             </li>
                                                                                                         </ul>
@@ -895,12 +781,10 @@
                                                                                             <div class="menu">
                                                                                                 <ul>
                                                                                                     <li>
-                                                                                                        <a href="browse.php?c=5&t=12#start"
-                                                                                                            class="main-menu">Vacuum
+                                                                                                        <a href="browse.php?c=5&t=12#start" class="main-menu">Vacuum
                                                                                                             Pump</a>
                                                                                                         <ul>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=speck-vh,-vu,-vz">Speck
+                                                                                                            <li><a href="view.php?url=speck-vh,-vu,-vz">Speck
                                                                                                                     VH,
                                                                                                                     VU,
                                                                                                                     VZ</a>
@@ -910,13 +794,10 @@
                                                                                                 </ul>
                                                                                             </div>
                                                                                         </div>
-                                                                                        <div
-                                                                                            class="col-md-12 static-menu">
+                                                                                        <div class="col-md-12 static-menu">
                                                                                             <hr>
                                                                                             <div class="menu">
-                                                                                                <a
-                                                                                                    href="browse.php?c=5#start"><i
-                                                                                                        class="fa fa-search"></i>
+                                                                                                <a href="browse.php?c=5#start"><i class="fa fa-search"></i>
                                                                                                     Browse all Pump
                                                                                                     products</a>
                                                                                             </div>
@@ -940,18 +821,15 @@
                                                                             <div class="row">
                                                                                 <div class="col-sm-12">
                                                                                     <div class="row">
-                                                                                        <div
-                                                                                            class="col-md-6 static-menu">
+                                                                                        <div class="col-md-6 static-menu">
                                                                                             <div class="menu">
                                                                                                 <ul>
                                                                                                     <li>
-                                                                                                        <a href="view.php?id=68"
-                                                                                                            class="main-menu">Motor
+                                                                                                        <a href="view.php?id=68" class="main-menu">Motor
                                                                                                             Cooling
                                                                                                             Fan</a>
                                                                                                         <ul>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=yuema-motor-cooling-fan">Yuema
+                                                                                                            <li><a href="view.php?url=yuema-motor-cooling-fan">Yuema
                                                                                                                     Motor
                                                                                                                     Cooling
                                                                                                                     Fan</a>
@@ -963,12 +841,10 @@
                                                                                             <div class="menu">
                                                                                                 <ul>
                                                                                                     <li>
-                                                                                                        <a href="browse.php?c=6#start"
-                                                                                                            class="main-menu">DC
+                                                                                                        <a href="browse.php?c=6#start" class="main-menu">DC
                                                                                                             Brake</a>
                                                                                                         <ul>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=revco-intorq-dc-brake-bfk457">Revco
+                                                                                                            <li><a href="view.php?url=revco-intorq-dc-brake-bfk457">Revco
                                                                                                                     Intorq
                                                                                                                     DC
                                                                                                                     Brake
@@ -979,26 +855,21 @@
                                                                                                 </ul>
                                                                                             </div>
                                                                                         </div>
-                                                                                        <div
-                                                                                            class="col-md-6 static-menu">
+                                                                                        <div class="col-md-6 static-menu">
                                                                                             <div class="menu">
                                                                                                 <ul>
                                                                                                     <li>
-                                                                                                        <a href="browse.php?c=6#start"
-                                                                                                            class="main-menu">Couplings</a>
+                                                                                                        <a href="browse.php?c=6#start" class="main-menu">Couplings</a>
                                                                                                         <ul>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=revco-chain-coupling">Revco
+                                                                                                            <li><a href="view.php?url=revco-chain-coupling">Revco
                                                                                                                     Chain
                                                                                                                     Coupling</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=revco-fcl-coupling">Revco
+                                                                                                            <li><a href="view.php?url=revco-fcl-coupling">Revco
                                                                                                                     FCL
                                                                                                                     Coupling</a>
                                                                                                             </li>
-                                                                                                            <li><a
-                                                                                                                    href="view.php?url=revco-jtc-coupling">Revco
+                                                                                                            <li><a href="view.php?url=revco-jtc-coupling">Revco
                                                                                                                     JTC
                                                                                                                     Coupling</a>
                                                                                                             </li>
@@ -1007,13 +878,10 @@
                                                                                                 </ul>
                                                                                             </div>
                                                                                         </div>
-                                                                                        <div
-                                                                                            class="col-md-12 static-menu">
+                                                                                        <div class="col-md-12 static-menu">
                                                                                             <hr>
                                                                                             <div class="menu">
-                                                                                                <a
-                                                                                                    href="browse.php?c=6#start"><i
-                                                                                                        class="fa fa-search"></i>
+                                                                                                <a href="browse.php?c=6#start"><i class="fa fa-search"></i>
                                                                                                     Browse all Other
                                                                                                     products</a>
                                                                                             </div>
@@ -1036,61 +904,45 @@
                                                                             <div class="row">
                                                                                 <div class="col-sm-12">
                                                                                     <div class="row">
-                                                                                        <div
-                                                                                            class="col-sm-6 hover-menu">
+                                                                                        <div class="col-sm-6 hover-menu">
                                                                                             <div class="menu">
                                                                                                 <ul>
-                                                                                                    <li><a href="browse.php?brand=yuema#start"
-                                                                                                            class="main-menu">Yuema</a>
+                                                                                                    <li><a href="browse.php?brand=yuema#start" class="main-menu">Yuema</a>
                                                                                                     </li>
-                                                                                                    <li><a href="browse.php?brand=revco#start"
-                                                                                                            class="main-menu">Revco</a>
+                                                                                                    <li><a href="browse.php?brand=revco#start" class="main-menu">Revco</a>
                                                                                                     </li>
-                                                                                                    <li><a href="browse.php?brand=elektrim-cantoni#start"
-                                                                                                            class="main-menu">Elektrim
+                                                                                                    <li><a href="browse.php?brand=elektrim-cantoni#start" class="main-menu">Elektrim
                                                                                                             Cantoni</a>
                                                                                                     </li>
-                                                                                                    <li><a href="browse.php?brand=transmax#start"
-                                                                                                            class="main-menu">Transmax</a>
+                                                                                                    <li><a href="browse.php?brand=transmax#start" class="main-menu">Transmax</a>
                                                                                                     </li>
-                                                                                                    <li><a href="browse.php?brand=southern-cross#start"
-                                                                                                            class="main-menu">Southern
+                                                                                                    <li><a href="browse.php?brand=southern-cross#start" class="main-menu">Southern
                                                                                                             Cross</a>
                                                                                                     </li>
-                                                                                                    <li><a href="browse.php?brand=quantum#start"
-                                                                                                            class="main-menu">Quantum</a>
+                                                                                                    <li><a href="browse.php?brand=quantum#start" class="main-menu">Quantum</a>
                                                                                                     </li>
-                                                                                                    <li><a href="browse.php?brand=prestar#start"
-                                                                                                            class="main-menu">Prestar</a>
+                                                                                                    <li><a href="browse.php?brand=prestar#start" class="main-menu">Prestar</a>
                                                                                                     </li>
                                                                                                 </ul>
                                                                                             </div>
                                                                                         </div>
-                                                                                        <div
-                                                                                            class="col-sm-6 hover-menu">
+                                                                                        <div class="col-sm-6 hover-menu">
                                                                                             <div class="menu">
                                                                                                 <ul>
-                                                                                                    <li><a href="browse.php?brand=delta#start"
-                                                                                                            class="main-menu">Delta</a>
+                                                                                                    <li><a href="browse.php?brand=delta#start" class="main-menu">Delta</a>
                                                                                                     </li>
-                                                                                                    <li><a href="browse.php?brand=oriental-koshin#start"
-                                                                                                            class="main-menu">Oriental
+                                                                                                    <li><a href="browse.php?brand=oriental-koshin#start" class="main-menu">Oriental
                                                                                                             Koshin</a>
                                                                                                     </li>
-                                                                                                    <li><a href="browse.php?brand=speck#start"
-                                                                                                            class="main-menu">Speck</a>
+                                                                                                    <li><a href="browse.php?brand=speck#start" class="main-menu">Speck</a>
                                                                                                     </li>
-                                                                                                    <li><a href="browse.php?brand=sihi#start"
-                                                                                                            class="main-menu">Sihi</a>
+                                                                                                    <li><a href="browse.php?brand=sihi#start" class="main-menu">Sihi</a>
                                                                                                     </li>
-                                                                                                    <li><a href="browse.php?brand=bishamon#start"
-                                                                                                            class="main-menu">Bishamon</a>
+                                                                                                    <li><a href="browse.php?brand=bishamon#start" class="main-menu">Bishamon</a>
                                                                                                     </li>
-                                                                                                    <li><a href="browse.php?brand=invt#start"
-                                                                                                            class="main-menu">INVT</a>
+                                                                                                    <li><a href="browse.php?brand=invt#start" class="main-menu">INVT</a>
                                                                                                     </li>
-                                                                                                    <li><a href="browse.php?brand=teco#start"
-                                                                                                            class="main-menu">TECO</a>
+                                                                                                    <li><a href="browse.php?brand=teco#start" class="main-menu">TECO</a>
                                                                                                     </li>
                                                                                                 </ul>
                                                                                             </div>
@@ -1103,24 +955,21 @@
                                                                 </li>
                                                                 <li class="item-vertical">
                                                                     <p class="close-menu"></p>
-                                                                    <a href="#" data-toggle="modal"
-                                                                        data-target="#search-name" class="clearfix">
+                                                                    <a href="#" data-toggle="modal" data-target="#search-name" class="clearfix">
                                                                         <i class="fas fa-search root-icon"></i>
                                                                         <span>Search by Name</span>
                                                                     </a>
                                                                 </li>
                                                                 <li class="item-vertical">
                                                                     <p class="close-menu"></p>
-                                                                    <a href="#" data-toggle="modal"
-                                                                        data-target="#search-brand" class="clearfix">
+                                                                    <a href="#" data-toggle="modal" data-target="#search-brand" class="clearfix">
                                                                         <i class="fas fa-search root-icon"></i>
                                                                         <span>Search by Brand</span>
                                                                     </a>
                                                                 </li>
                                                                 <li class="item-vertical">
                                                                     <p class="close-menu"></p>
-                                                                    <a href="#" data-toggle="modal"
-                                                                        data-target="#search-country" class="clearfix">
+                                                                    <a href="#" data-toggle="modal" data-target="#search-country" class="clearfix">
                                                                         <i class="fas fa-search root-icon"></i>
                                                                         <span>Search by Country of Origin</span>
                                                                     </a>
@@ -1141,8 +990,7 @@
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal"
-                                            aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                                         <h4 class="modal-title">Search by product name</h4>
                                     </div>
                                     <div class="modal-body">
@@ -1151,12 +999,9 @@
                                             <div class="col-md-12">
                                                 <form method="get" action="browse.php#start">
 
-                                                    <input class="autosearch-input form-control" id="first-focus"
-                                                        type="text" value="" size="50" autocomplete="off"
-                                                        placeholder="Bevel gears..." name="search" required>
+                                                    <input class="autosearch-input form-control" id="first-focus" type="text" value="" size="50" autocomplete="off" placeholder="Bevel gears..." name="search" required>
                                                     <br>
-                                                    <button type="submit"
-                                                        class="button-search btn btn-primary btn-block">Search</button>
+                                                    <button type="submit" class="button-search btn btn-primary btn-block">Search</button>
 
                                                 </form>
                                             </div>
@@ -1171,8 +1016,7 @@
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal"
-                                            aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                                         <h4 class="modal-title">Search by product brand</h4>
                                     </div>
                                     <div class="modal-body">
@@ -1181,12 +1025,9 @@
                                             <div class="col-md-12">
                                                 <form method="get" action="browse.php#start">
 
-                                                    <input class="autosearch-input form-control" id="first-focus"
-                                                        type="text" value="" size="50" autocomplete="off"
-                                                        placeholder="Example: Yuema or Revco..." name="search" required>
+                                                    <input class="autosearch-input form-control" id="first-focus" type="text" value="" size="50" autocomplete="off" placeholder="Example: Yuema or Revco..." name="search" required>
                                                     <br>
-                                                    <button type="submit"
-                                                        class="button-search btn btn-primary btn-block">Search</button>
+                                                    <button type="submit" class="button-search btn btn-primary btn-block">Search</button>
 
                                                 </form>
                                             </div>
@@ -1201,8 +1042,7 @@
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal"
-                                            aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                                         <h4 class="modal-title">Search by product country of origin</h4>
                                     </div>
                                     <div class="modal-body">
@@ -1211,13 +1051,9 @@
                                             <div class="col-md-12">
                                                 <form method="get" action="browse.php#start">
 
-                                                    <input class="autosearch-input form-control" id="first-focus"
-                                                        type="text" value="" size="50" autocomplete="off"
-                                                        placeholder="Example: USA or China..." name="search-country"
-                                                        required>
+                                                    <input class="autosearch-input form-control" id="first-focus" type="text" value="" size="50" autocomplete="off" placeholder="Example: USA or China..." name="search-country" required>
                                                     <br>
-                                                    <button type="submit"
-                                                        class="button-search btn btn-primary btn-block">Search</button>
+                                                    <button type="submit" class="button-search btn btn-primary btn-block">Search</button>
 
                                                 </form>
                                             </div>
@@ -1235,8 +1071,7 @@
                                     <nav class="navbar-default">
                                         <div class=" container-megamenu  horizontal open ">
                                             <div class="navbar-header hidden-xs">
-                                                <button type="button" id="show-megamenu" data-toggle="collapse"
-                                                    class="navbar-toggle">
+                                                <button type="button" id="show-megamenu" data-toggle="collapse" class="navbar-toggle">
                                                     <span class="icon-bar"></span>
                                                     <span class="icon-bar"></span>
                                                     <span class="icon-bar"></span>
@@ -1246,42 +1081,40 @@
                                                 <span id="remove-megamenu" class="fa fa-times"></span>
                                                 <div class="megamenu-pattern">
                                                     <div class="container-mega row">
-                                                    <div class="col-lg-10">
-                                                        <ul class="megamenu" data-transition="slide"
-                                                            data-animationtime="250">
-                                                            <li class="hover active">
-                                                                <a href="index.php">Home</a>
-                                                            </li>
-                                                            <li class="hover ">
-                                                                <a href="browse.php" class="clearfix">
-                                                                    <strong>Products</strong>
-                                                                </a>
-                                                            </li>
-                                                            <li class="hover">
-                                                                <a href="about.php" class="clearfix">
-                                                                    <strong>About Us</strong>
-                                                                </a>
-                                                            </li>
-                                                            <li class="hover ">
-                                                                <a href="brands.php" class="clearfix">
-                                                                    <strong>Brands</strong>
-                                                                </a>
-                                                            </li>
-                                                            <li class="hover 
+                                                        <div class="col-lg-10">
+                                                            <ul class="megamenu" data-transition="slide" data-animationtime="250">
+                                                                <li class="hover active">
+                                                                    <a href="index.php">Home</a>
+                                                                </li>
+                                                                <li class="hover ">
+                                                                    <a href="browse.php" class="clearfix">
+                                                                        <strong>Products</strong>
+                                                                    </a>
+                                                                </li>
+                                                                <li class="hover">
+                                                                    <a href="about.php" class="clearfix">
+                                                                        <strong>About Us</strong>
+                                                                    </a>
+                                                                </li>
+                                                                <li class="hover ">
+                                                                    <a href="brands.php" class="clearfix">
+                                                                        <strong>Brands</strong>
+                                                                    </a>
+                                                                </li>
+                                                                <li class="hover 
                                                                             ">
-                                                                <a href="rfq.php" class="clearfix">
-                                                                    <strong>Request For Quotation</strong>
-                                                                </a>
-                                                            </li>
-                                                            <li class="hover">
-                                                                <a href="#" data-toggle="modal"
-                                                                    data-target="#contact-us" class="clearfix">
-                                                                    <strong>Contacts</strong>
-                                                                </a>
-                                                            </li>
-                                                          
-                                                        </ul>
-                                                       
+                                                                    <a href="rfq.php" class="clearfix">
+                                                                        <strong>Request For Quotation</strong>
+                                                                    </a>
+                                                                </li>
+                                                                <li class="hover">
+                                                                    <a href="#" data-toggle="modal" data-target="#contact-us" class="clearfix">
+                                                                        <strong>Contacts</strong>
+                                                                    </a>
+                                                                </li>
+
+                                                            </ul>
+
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1295,8 +1128,7 @@
                             <div class="modal-dialog modal-lg" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal"
-                                            aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                                         <h4 class="modal-title">Our Contacts</h4>
                                     </div>
                                     <div class="modal-body">
@@ -1310,20 +1142,16 @@
                                                             <li><span class="icon pe-7s-map-marker"></span>Komplek
                                                                 Pertokoan Glodok Jaya No. 30, Mangga Besar, Taman Sari,
                                                                 Jakarta Barat, 11180 <br>
-                                                                <a style="color:#ccc;"
-                                                                    href="https://www.google.com/maps/place/Roda+Rollen+Indonesia.+PT,+Kompleks+Pertokoan+Glodok+Jaya+Ruko+no.+30,+RT.1%2FRW.6,+Mangga+Besar,+Kec.+Taman+Sari,+Kota+Jakarta+Barat,+Daerah+Khusus+Ibukota+Jakarta+11180/@-6.14427,106.8171776,19z/data=!4m2!3m1!1s0x2e69f7f0cd8d1ef9:0x4792d179af90ed3b"
-                                                                    target="_blank">view on map</a></li>
+                                                                <a style="color:#ccc;" href="https://www.google.com/maps/place/Roda+Rollen+Indonesia.+PT,+Kompleks+Pertokoan+Glodok+Jaya+Ruko+no.+30,+RT.1%2FRW.6,+Mangga+Besar,+Kec.+Taman+Sari,+Kota+Jakarta+Barat,+Daerah+Khusus+Ibukota+Jakarta+11180/@-6.14427,106.8171776,19z/data=!4m2!3m1!1s0x2e69f7f0cd8d1ef9:0x4792d179af90ed3b" target="_blank">view on map</a>
+                                                            </li>
                                                             <li><span class="icon pe-7s-call"></span>
                                                                 Phone: <a href="tel:+62216003131">(021) 6003131-38</a>
                                                                 <br>
                                                                 Fax: (021) 6003130
                                                             </li>
-                                                            <li><span class="icon pe-7s-mail"></span><a
-                                                                    href="mailto:sales@rodarollenindonesia.com">sales@rodarollenindonesia.com</a>
+                                                            <li><span class="icon pe-7s-mail"></span><a href="mailto:sales@rodarollenindonesia.com">sales@rodarollenindonesia.com</a>
                                                             </li>
-                                                            <li><span class="icon pe-7s-chat"></span><a
-                                                                    href="https://wa.me/628388268826"
-                                                                    target="_blank">Chat via WhatsApp</a></li>
+                                                            <li><span class="icon pe-7s-chat"></span><a href="https://wa.me/628388268826" target="_blank">Chat via WhatsApp</a></li>
                                                         </ul>
                                                     </div>
                                                 </div> <br>
@@ -1336,17 +1164,14 @@
                                                             <li><span class="icon pe-7s-map-marker"></span>Jl Krekot
                                                                 Bunder IV No. 133, Pasar Baru, Sawah Besar, Jakarta
                                                                 Pusat, 10710 <br>
-                                                                <a style="color:#ccc;"
-                                                                    href="https://www.google.com/maps/place/Roda+Rollen+Indonesia.+PT,+Jl.+Krekot+Bunder+IV+No.133,+RT.8%2FRW.6,+Ps.+Baru,+Kecamatan+Sawah+Besar,+Kota+Jakarta+Pusat,+Daerah+Khusus+Ibukota+Jakarta+10710/@-6.1597182,106.8307865,17z/data=!4m2!3m1!1s0x2e69f5c4a1b03f83:0xd28ed82e8d03feb6"
-                                                                    target="_blank">view on map</a></li>
+                                                                <a style="color:#ccc;" href="https://www.google.com/maps/place/Roda+Rollen+Indonesia.+PT,+Jl.+Krekot+Bunder+IV+No.133,+RT.8%2FRW.6,+Ps.+Baru,+Kecamatan+Sawah+Besar,+Kota+Jakarta+Pusat,+Daerah+Khusus+Ibukota+Jakarta+10710/@-6.1597182,106.8307865,17z/data=!4m2!3m1!1s0x2e69f5c4a1b03f83:0xd28ed82e8d03feb6" target="_blank">view on map</a>
+                                                            </li>
                                                             <li><span class="icon pe-7s-call"></span>
-                                                                Phone: <a href="tel:+62213805859">(021) 3805859</a> - <a
-                                                                    href="tel:+62213805880">3805880</a></a>
+                                                                Phone: <a href="tel:+62213805859">(021) 3805859</a> - <a href="tel:+62213805880">3805880</a></a>
                                                                 <br>
                                                                 Fax: (021) 3508976
                                                             </li>
-                                                            <li><span class="icon pe-7s-mail"></span><a
-                                                                    href="mailto:info@rodarollenindonesia.com">info@rodarollenindonesia.com</a>
+                                                            <li><span class="icon pe-7s-mail"></span><a href="mailto:info@rodarollenindonesia.com">info@rodarollenindonesia.com</a>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -1356,8 +1181,7 @@
 
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-default btn-primary"
-                                            data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-default btn-primary" data-dismiss="modal">Close</button>
                                     </div>
                                 </div><!-- /.modal-content -->
                             </div><!-- /.modal-dialog -->
@@ -1398,47 +1222,47 @@
 
                         <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12 slideshow-full">
 
-                            <div id="carousel-example-generic" class="carousel slide mt-3" data-ride="carousel">
+                            <div id="carousel-example-generic" class="carousel slide" style="margin-top: 25px;" data-ride="carousel">
                                 <!-- Indicators -->
                                 <ol class="carousel-indicators">
-                                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                                  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                                 </ol>
-                              
+
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner" role="listbox">
-                                  <div class="item active">
-                                    <img src="image/1.jpg" alt="...">
-                                    <div class="carousel-caption">
-                              <!-- <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>   -->
+                                    <div class="item active">
+                                        <img src="image/1.jpg" alt="...">
+                                        <div class="carousel-caption">
+                                            <!-- <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>   -->
+                                        </div>
                                     </div>
-                                  </div>
-                                  <div class="item">
-                                    <img src="image/bg-elektrim.jpg" alt="...">
-                                    <div class="carousel-caption">
-                              <!-- <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>   -->
+                                    <div class="item">
+                                        <img src="image/bg-elektrim.jpg" alt="...">
+                                        <div class="carousel-caption">
+                                            <!-- <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>   -->
+                                        </div>
                                     </div>
-                                  </div>
-                                  <div class="item">
-                                    <img src="image/bg-prestar.jpg" alt="...">
-                                    <div class="carousel-caption">
-                              <!-- <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>   -->
+                                    <div class="item">
+                                        <img src="image/bg-prestar.jpg" alt="...">
+                                        <div class="carousel-caption">
+                                            <!-- <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>   -->
+                                        </div>
                                     </div>
-                                  </div>
-                                  
+
                                 </div>
-                              
+
                                 <!-- Controls -->
                                 <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                                  <span class="sr-only">Previous</span>
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
                                 </a>
                                 <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                                  <i class="glyphicon glyphicon-chevron-right" aria-hidden="true"></i>
-                                  <span class="sr-only">Next</span>
+                                    <i class="glyphicon glyphicon-chevron-right" aria-hidden="true"></i>
+                                    <span class="sr-only">Next</span>
                                 </a>
-                              </div>
+                            </div>
                         </div>
                     </div>
 
@@ -1482,132 +1306,138 @@
 
         <footer class="footer-container typefooter-2">
 
-    
 
-    <div class="container">
 
-        <div class="row footer-middle">
+            <div class="container">
 
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-style">
+                <div class="row footer-middle">
 
-                <div class="box-footer box-infos">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-style">
 
-                    <div class="module">
-    <h3 class="modtitle">Sales &amp; Showroom</h3>
-    <div class="modcontent">
-        <ul class="list-icon">
-            <li><span class="icon pe-7s-map-marker"></span>Komplek Pertokoan Glodok Jaya No. 30, Mangga Besar, Taman Sari, Jakarta Barat, 11180 <br>
-             <a style="color:#ccc;" href="https://www.google.com/maps/place/Roda+Rollen+Indonesia.+PT,+Kompleks+Pertokoan+Glodok+Jaya+Ruko+no.+30,+RT.1%2FRW.6,+Mangga+Besar,+Kec.+Taman+Sari,+Kota+Jakarta+Barat,+Daerah+Khusus+Ibukota+Jakarta+11180/@-6.14427,106.8171776,19z/data=!4m2!3m1!1s0x2e69f7f0cd8d1ef9:0x4792d179af90ed3b" target="_blank">view on map</a></li>
-            <li><span class="icon pe-7s-call"></span>
-                Phone: <a href="tel:+62216003131">(021) 6003131-38</a>
-                <br>
-                Fax: (021) 6003130
-            </li>
-            <li><span class="icon pe-7s-mail"></span><a href="mailto:sales@rodarollenindonesia.com">sales@rodarollenindonesia.com</a></li>
-            <li><span class="icon pe-7s-chat"></span><a href="https://wa.me/628388268826" target="_blank">Chat via WhatsApp</a></li>
-        </ul>
-    </div>
-</div>
-                    <hr class="spacer s visible-xs">
+                        <div class="box-footer box-infos">
 
-                </div>
-
-            </div>
-
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-style">
-
-                <div class="box-footer box-infos">
-
-                    <div class="module">
-    <h3 class="modtitle">Office</h3>
-    <div class="modcontent">
-        <ul class="list-icon">
-            <li><span class="icon pe-7s-map-marker"></span>Jl Krekot Bunder IV No. 133, Pasar Baru, Sawah Besar, Jakarta Pusat, 10710 <br>
-             <a style="color:#ccc;" href="https://www.google.com/maps/place/Roda+Rollen+Indonesia.+PT,+Jl.+Krekot+Bunder+IV+No.133,+RT.8%2FRW.6,+Ps.+Baru,+Kecamatan+Sawah+Besar,+Kota+Jakarta+Pusat,+Daerah+Khusus+Ibukota+Jakarta+10710/@-6.1597182,106.8307865,17z/data=!4m2!3m1!1s0x2e69f5c4a1b03f83:0xd28ed82e8d03feb6" target="_blank">view on map</a></li>
-            <li><span class="icon pe-7s-call"></span>
-                Phone: <a href="tel:+62213805859">(021) 3805859</a> - <a href="tel:+62213805880">3805880</a>
-                <br>
-                Fax: (021) 3508976
-            </li>
-            <li><span class="icon pe-7s-mail"></span><a href="mailto:info@rodarollenindonesia.com">info@rodarollenindonesia.com</a></li>
-        </ul>
-    </div>
-</div>
-                    <hr class="spacer s visible-xs">
-
-                </div>
-
-            </div>
-
-            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 col-style">
-
-                <div class="box-information box-footer">
-
-                    <div class="module clearfix">
-
-                        <h3 class="modtitle">Brands</h3>
-
-                        <div class="modcontent">
-
-                            <ul class="menu">
-
-                                <li><a href="browse.php?brand=yuema#start">Yuema</a></li>
-
-                                <li><a href="browse.php?brand=transmax#start">Transmax</a></li>
-
-                                <li><a href="browse.php?brand=revco#start">Revco</a></li>
-
-                                <li><a href="browse.php?brand=southern-cross#start">Southern Cross</a></li>
-
-                                <li><a href="browse.php?brand=oriental-koshin#start">Koshin</a></li>
-
-                                <li><a href="browse.php?brand=elektrim-cantoni#start">Elektrim Cantoni</a></li>
-
-                            </ul>
+                            <div class="module">
+                                <h3 class="modtitle">Sales &amp; Showroom</h3>
+                                <div class="modcontent">
+                                    <ul class="list-icon">
+                                        <li><span class="icon pe-7s-map-marker"></span>Komplek Pertokoan Glodok Jaya No. 30, Mangga Besar, Taman Sari, Jakarta Barat, 11180 <br>
+                                            <a style="color:#ccc;" href="https://www.google.com/maps/place/Roda+Rollen+Indonesia.+PT,+Kompleks+Pertokoan+Glodok+Jaya+Ruko+no.+30,+RT.1%2FRW.6,+Mangga+Besar,+Kec.+Taman+Sari,+Kota+Jakarta+Barat,+Daerah+Khusus+Ibukota+Jakarta+11180/@-6.14427,106.8171776,19z/data=!4m2!3m1!1s0x2e69f7f0cd8d1ef9:0x4792d179af90ed3b" target="_blank">view on map</a>
+                                        </li>
+                                        <li><span class="icon pe-7s-call"></span>
+                                            Phone: <a href="tel:+62216003131">(021) 6003131-38</a>
+                                            <br>
+                                            Fax: (021) 6003130
+                                        </li>
+                                        <li><span class="icon pe-7s-mail"></span><a href="mailto:sales@rodarollenindonesia.com">sales@rodarollenindonesia.com</a></li>
+                                        <li><span class="icon pe-7s-chat"></span><a href="https://wa.me/628388268826" target="_blank">Chat via WhatsApp</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr class="spacer s visible-xs">
 
                         </div>
 
                     </div>
 
-                    <hr class="spacer s visible-xs">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-style">
 
-                </div>
+                        <div class="box-footer box-infos">
 
-            </div>
+                            <div class="module">
+                                <h3 class="modtitle">Office</h3>
+                                <div class="modcontent">
+                                    <ul class="list-icon">
+                                        <li><span class="icon pe-7s-map-marker"></span>Jl Krekot Bunder IV No. 133, Pasar Baru, Sawah Besar, Jakarta Pusat, 10710 <br>
+                                            <a style="color:#ccc;" href="https://www.google.com/maps/place/Roda+Rollen+Indonesia.+PT,+Jl.+Krekot+Bunder+IV+No.133,+RT.8%2FRW.6,+Ps.+Baru,+Kecamatan+Sawah+Besar,+Kota+Jakarta+Pusat,+Daerah+Khusus+Ibukota+Jakarta+10710/@-6.1597182,106.8307865,17z/data=!4m2!3m1!1s0x2e69f5c4a1b03f83:0xd28ed82e8d03feb6" target="_blank">view on map</a>
+                                        </li>
+                                        <li><span class="icon pe-7s-call"></span>
+                                            Phone: <a href="tel:+62213805859">(021) 3805859</a> - <a href="tel:+62213805880">3805880</a>
+                                            <br>
+                                            Fax: (021) 3508976
+                                        </li>
+                                        <li><span class="icon pe-7s-mail"></span><a href="mailto:info@rodarollenindonesia.com">info@rodarollenindonesia.com</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr class="spacer s visible-xs">
 
-            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 col-style">
+                        </div>
 
-                <div class="box-information box-footer">
+                    </div>
 
-                    <div class="module clearfix">
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 col-style">
 
-                        <h3 class="modtitle">Categories</h3>
+                        <div class="box-information box-footer">
 
-                        <div class="modcontent">
+                            <div class="module clearfix">
 
-                            <ul class="menu">
+                                <h3 class="modtitle">Brands</h3>
 
-                                
-                                
-                                    <li><a href="browse.php?c=1#start">Electric Motors</a></li>
+                                <div class="modcontent">
 
-                                
-                                    <li><a href="browse.php?c=2#start">Gear Reducers</a></li>
+                                    <ul class="menu">
 
-                                
-                                    <li><a href="browse.php?c=5#start">Pumps</a></li>
+                                        <li><a href="browse.php?brand=yuema#start">Yuema</a></li>
 
-                                
-                                    <li><a href="browse.php?c=4#start">Handling Equipments</a></li>
+                                        <li><a href="browse.php?brand=transmax#start">Transmax</a></li>
 
-                                
-                                    <li><a href="browse.php?c=3#start">Inverters</a></li>
+                                        <li><a href="browse.php?brand=revco#start">Revco</a></li>
 
-                                
-                                    <li><a href="browse.php?c=6#start">Others</a></li>
+                                        <li><a href="browse.php?brand=southern-cross#start">Southern Cross</a></li>
 
-                                
-                            </ul>
+                                        <li><a href="browse.php?brand=oriental-koshin#start">Koshin</a></li>
+
+                                        <li><a href="browse.php?brand=elektrim-cantoni#start">Elektrim Cantoni</a></li>
+
+                                    </ul>
+
+                                </div>
+
+                            </div>
+
+                            <hr class="spacer s visible-xs">
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 col-style">
+
+                        <div class="box-information box-footer">
+
+                            <div class="module clearfix">
+
+                                <h3 class="modtitle">Categories</h3>
+
+                                <div class="modcontent">
+
+                                    <ul class="menu">
+
+
+
+                                        <li><a href="browse.php?c=1#start">Electric Motors</a></li>
+
+
+                                        <li><a href="browse.php?c=2#start">Gear Reducers</a></li>
+
+
+                                        <li><a href="browse.php?c=5#start">Pumps</a></li>
+
+
+                                        <li><a href="browse.php?c=4#start">Handling Equipments</a></li>
+
+
+                                        <li><a href="browse.php?c=3#start">Inverters</a></li>
+
+
+                                        <li><a href="browse.php?c=6#start">Others</a></li>
+
+
+                                    </ul>
+
+                                </div>
+
+                            </div>
 
                         </div>
 
@@ -1617,469 +1447,518 @@
 
             </div>
 
-        </div>
 
-    </div>
 
-    
+            <div class="footer-bottom">
 
-    <div class="footer-bottom">        
+                <div class="container">
 
-        <div class="container">
+                    <div class="row">
 
-            <div class="row">
+                        <div class="payment-w col-lg-4 col-md-4 col-sm-12 col-xs-12">
 
-                <div class="payment-w col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        </div>
+
+                        <div class="copyright col-lg-8 col-md-8 col-sm-12 col-xs-12">
+
+                            <p>Copyright 2021 PT. Roda Rollen Indonesia. All Rights Reserved.</p>
+
+                        </div>
+
+                    </div>
 
                 </div>
 
-                <div class="copyright col-lg-8 col-md-8 col-sm-12 col-xs-12">
+            </div>
 
-                    <p>Copyright 2021 PT. Roda Rollen Indonesia. All Rights Reserved.</p>
 
-                </div>                                   
+
+            <!--Back To Top-->
+
+            <div class="back-to-top hidden-xs"><i class="fa fa-angle-up"></i></div>
+
+
+
+            <style type="text/css">
+                .mobile-bottom {
+
+                    position: fixed;
+
+                    bottom: 0;
+
+                    width: 100%;
+
+                    text-align: center;
+
+                    background: #e42127;
+
+                    z-index: 9999;
+
+                }
+
+                .mobile-bottom .part {
+
+                    width: 25%;
+
+                    float: left;
+
+                    color: white;
+
+                    height: 50px;
+
+                    font-size: 11px;
+
+                    line-height: 18px;
+
+                    padding-top: 10px;
+
+                    transition: all 0.1s linear;
+
+                    line-height: 14px;
+
+                }
+
+                .mobile-bottom .part i {
+
+                    font-size: 17px;
+
+                }
+
+                .mobile-bottom .part.active,
+
+                .mobile-bottom .part.active:hover,
+
+                .mobile-bottom .part.active:active,
+
+                .mobile-bottom .part:hover,
+
+                .mobile-bottom .part:active {
+
+                    background: #eee;
+
+                    color: #e42127;
+
+                }
+
+
+
+
+
+
+
+                .mobile-tray {
+
+                    position: fixed;
+
+                    bottom: -1000px;
+
+                    width: 100%;
+
+                    background: #fff;
+
+                    z-index: 999;
+
+                    font-size: 11px;
+
+                    max-height: 80%;
+
+                    overflow-y: scroll;
+
+                    transition: all 0.1s linear;
+
+                    padding-bottom: 10px;
+
+                }
+
+                .mobile-tray.opened {
+
+                    bottom: 50px;
+
+                }
+
+                .mobile-tray h2 {
+
+                    width: 100%;
+
+                    display: block;
+
+                    color: white;
+
+                    background-color: #e42127;
+
+                    padding: 10px 15px;
+
+                }
+
+                .mobile-tray .item {
+
+                    width: 33.3333%;
+
+                    float: left;
+
+                    text-align: center;
+
+                    padding: 15px;
+
+                    transition: all 0.1s linear;
+
+                    line-height: 14px;
+
+                }
+
+                .mobile-tray .item img {
+
+                    width: 90%;
+
+                    margin: 0 auto;
+
+                }
+
+                #mm-brands img {
+
+                    transition: all 0.1s linear;
+
+                }
+
+                .mobile-tray .item:hover,
+
+                .mobile-tray .item:active {
+
+                    transform: scale(1.1);
+
+                }
+
+                #mm-about .item {
+
+                    font-size: 20px;
+
+                    text-align: left;
+
+                    font-weight: 500;
+
+                    line-height: 25px;
+
+                    width: 100%;
+
+                    color: #333;
+
+                    min-height: 0px !important;
+
+                }
+
+                #mm-about .item a {
+
+                    color: #333;
+
+                }
+
+                #mm-about .item:hover,
+
+                #mm-about .item:active {
+
+                    transform: scale(1.05) translate(5px, 0);
+
+                }
+
+
+
+                /*mobile submenu*/
+
+                .mobile-tray .has-submenu {}
+
+                .mobile-subtray {
+
+                    position: fixed;
+
+                    bottom: -1000px;
+
+                    width: 100%;
+
+                    background: #fff;
+
+                    z-index: 999;
+
+                    font-size: 11px;
+
+                    max-height: 80%;
+
+                    overflow-y: scroll;
+
+                    transition: all 0.1s linear;
+
+                    padding-bottom: 10px;
+
+                }
+
+                .mobile-subtray.opened {
+
+                    bottom: 50px;
+
+                }
+
+                .mobile-subtray h2 {
+
+                    width: 100%;
+
+                    display: block;
+
+                    color: white;
+
+                    background-color: #e42127;
+
+                    padding: 10px 15px;
+
+                }
+            </style>
+
+
+
+            <!-- mobile menu -->
+
+            <div class="mobile-bottom visible-xs">
+
+                <div class="part" data-target="mm-categories">
+
+                    <i class="fa fa-tags"></i>
+
+                    <br>
+
+                    Categories
+
+                </div>
+
+                <div class="part" data-target="mm-brands">
+
+                    <i class="fa fa-copyright"></i>
+
+                    <br>
+
+                    Brands
+
+                </div>
+
+                <div class="part" data-target="mm-about">
+
+                    <i class="fa fa-info-circle"></i>
+
+                    <br>
+
+                    About
+
+                </div>
+
+                <div class="part" data-target="mm-search">
+
+                    <i class="fa fa-search"></i>
+
+                    <br>
+
+                    Search
+
+                </div>
 
             </div>
 
-        </div>            
 
-    </div>
 
+            <!-- mobile menu -->
 
+            <div class="mobile-tray visible-xs " id="mm-categories" style="">
 
-    <!--Back To Top-->
+                <h2>Product Categories</h2>
 
-    <div class="back-to-top hidden-xs"><i class="fa fa-angle-up"></i></div>
 
 
+                <div class="item match-height has-submenu" submenu-target="electric-motors" style="height: 0px;">
 
-    <style type="text/css">
+                    <a href="javascript:void(0)"><img src="image/categories/electric-motors.jpg" class="img-responsive"></a>
 
-        .mobile-bottom {
+                    <a href="javascript:void(0)">Electric Motors</a>
 
-            position: fixed;
+                </div>
 
-            bottom: 0;
 
-            width: 100%;
+                <div class="item match-height has-submenu" submenu-target="gear-reducers" style="height: 0px;">
 
-            text-align: center;
+                    <a href="javascript:void(0)"><img src="image/categories/gears2.jpg" class="img-responsive"></a>
 
-            background: #e42127;
+                    <a href="javascript:void(0)">Gear Reducers</a>
 
-            z-index: 9999;
+                </div>
 
-        }
 
-        .mobile-bottom .part {
+                <div class="item match-height has-submenu" submenu-target="pumps" style="height: 0px;">
 
-            width: 25%;
+                    <a href="javascript:void(0)"><img src="image/categories/pumps2.jpg" class="img-responsive"></a>
 
-            float: left;
+                    <a href="javascript:void(0)">Pumps</a>
 
-            color: white;
+                </div>
 
-            height: 50px;
 
-            font-size:11px;
+                <div class="item match-height has-submenu" submenu-target="handling-equipments" style="height: 0px;">
 
-            line-height: 18px;
+                    <a href="javascript:void(0)"><img src="image/categories/handling.jpg" class="img-responsive"></a>
 
-            padding-top: 10px;
+                    <a href="javascript:void(0)">Handling Equipments</a>
 
-            transition:all 0.1s linear;
+                </div>
 
-            line-height: 14px;
 
-        }
+                <div class="item match-height has-submenu" submenu-target="inverters" style="height: 0px;">
 
-        .mobile-bottom .part i {
+                    <a href="javascript:void(0)"><img src="image/categories/invert.jpg" class="img-responsive"></a>
 
-            font-size: 17px;
+                    <a href="javascript:void(0)">Inverters</a>
 
-        }
+                </div>
 
-        .mobile-bottom .part.active,
 
-        .mobile-bottom .part.active:hover,
+                <div class="item match-height has-submenu" submenu-target="others" style="height: 0px;">
 
-        .mobile-bottom .part.active:active,
+                    <a href="javascript:void(0)"><img src="image/categories/others.jpg" class="img-responsive"></a>
 
-        .mobile-bottom .part:hover,
+                    <a href="javascript:void(0)">Others</a>
 
-        .mobile-bottom .part:active {
+                </div>
 
-            background:#eee;
-
-            color: #e42127;
-
-        }
-
-
-
-
-
-
-
-        .mobile-tray {
-
-            position: fixed;
-
-            bottom: -1000px;
-
-            width: 100%;
-
-            background: #fff;
-
-            z-index: 999;
-
-            font-size:11px;
-
-            max-height: 80%;
-
-            overflow-y: scroll;
-
-            transition:all 0.1s linear;
-
-            padding-bottom: 10px;
-
-        }
-
-        .mobile-tray.opened {
-
-            bottom: 50px;
-
-        }
-
-        .mobile-tray h2 {
-
-            width: 100%;
-
-            display: block;
-
-            color: white;
-
-            background-color: #e42127;
-
-            padding: 10px 15px;
-
-        }
-
-        .mobile-tray .item {
-
-            width: 33.3333%;
-
-            float: left;
-
-            text-align: center;
-
-            padding: 15px;
-
-            transition:all 0.1s linear;
-
-            line-height: 14px;
-
-        }
-
-        .mobile-tray .item img {
-
-            width: 90%;
-
-            margin: 0 auto;
-
-        }
-
-        #mm-brands img {
-
-            transition:all 0.1s linear;
-
-        }
-
-        .mobile-tray .item:hover,
-
-        .mobile-tray .item:active {
-
-            transform: scale(1.1);
-
-        }
-
-        #mm-about .item {
-
-            font-size: 20px;
-
-            text-align: left;
-
-            font-weight: 500;
-
-            line-height: 25px;
-
-            width: 100%;
-
-            color: #333;
-
-            min-height: 0px !important;
-
-        }
-
-        #mm-about .item a {
-
-            color: #333;
-
-        }
-
-        #mm-about .item:hover,
-
-        #mm-about .item:active {
-
-            transform: scale(1.05) translate(5px, 0);
-
-        }
-
-
-
-        /*mobile submenu*/
-
-        .mobile-tray .has-submenu {
-
-
-
-        }
-
-        .mobile-subtray {
-
-            position: fixed;
-
-            bottom: -1000px;
-
-            width: 100%;
-
-            background: #fff;
-
-            z-index: 999;
-
-            font-size:11px;
-
-            max-height: 80%;
-
-            overflow-y: scroll;
-
-            transition:all 0.1s linear;
-
-            padding-bottom: 10px;
-
-        }
-
-        .mobile-subtray.opened {
-
-            bottom: 50px;
-
-        }
-
-        .mobile-subtray h2 {
-
-            width: 100%;
-
-            display: block;
-
-            color: white;
-
-            background-color: #e42127;
-
-            padding: 10px 15px;
-
-        }
-
-    </style>
-
-
-
-    <!-- mobile menu -->
-
-    <div class="mobile-bottom visible-xs">
-
-        <div class="part" data-target="mm-categories">
-
-            <i class="fa fa-tags"></i>
-
-            <br>
-
-            Categories
-
-        </div>
-
-        <div class="part" data-target="mm-brands">
-
-            <i class="fa fa-copyright"></i>
-
-            <br>
-
-            Brands
-
-        </div>
-
-        <div class="part" data-target="mm-about">
-
-            <i class="fa fa-info-circle"></i>
-
-            <br>
-
-            About
-
-        </div>
-
-        <div class="part" data-target="mm-search">
-
-            <i class="fa fa-search"></i>
-
-            <br>
-
-            Search
-
-        </div>
-
-    </div>
-
-
-
-    <!-- mobile menu -->
-
-    <div class="mobile-tray visible-xs " id="mm-categories" style="">
-
-        <h2>Product Categories</h2>
-
-        
-        
-            <div class="item match-height has-submenu" submenu-target="electric-motors" style="height: 0px;">
-
-                <a href="javascript:void(0)"><img src="image/categories/electric-motors.jpg" class="img-responsive"></a>
-
-                <a href="javascript:void(0)">Electric Motors</a>
 
             </div>
 
-        
-            <div class="item match-height has-submenu" submenu-target="gear-reducers" style="height: 0px;">
 
-                <a href="javascript:void(0)"><img src="image/categories/gears2.jpg" class="img-responsive"></a>
 
-                <a href="javascript:void(0)">Gear Reducers</a>
+            <style type="text/css">
+                .mobile-subtray .menu {
+                    padding-bottom: 0px;
+                }
 
+                .mobile-subtray .menu>ul li a.main-menu {
+                    color: #222;
+                    font-size: 16px;
+                    padding: 13px 15px;
+                    display: block;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    border-bottom: 1px dashed #ccc;
+                }
+
+                .mobile-subtray .menu>ul li ul li a {
+                    font-size: 16px;
+                    font-weight: 400;
+                    display: block;
+                    line-height: 36px;
+                    padding: 0px 15px;
+                }
+
+                .mobile-subtray .menu>ul li.subtray-back a {
+                    color: #ccc;
+                    font-style: italic;
+                }
+
+                .browse-all {
+                    border-bottom: 0px !important;
+                }
+            </style>
+
+
+
+            <div class="mobile-subtray" submenu-anchor="electric-motors">
+                <h2>Product Browser</h2>
+                <div class="menu">
+                    <ul>
+                        <li class="subtray-back" parent-tray="mm-categories"><a href="javascript:void(0)" class="main-menu bb-dashed-ccc"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;back</a></li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="browse.php?c=1&amp;t=1#start" class="main-menu bb-dashed-ccc">1 Phase Motors</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="browse.php?c=1&amp;t=2#start" class="main-menu bb-dashed-ccc">3 Phase Motors</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="browse.php?c=1&amp;t=3#start" class="main-menu bb-dashed-ccc">Brake Motors</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="browse.php?c=1&amp;t=4#start" class="main-menu bb-dashed-ccc">Vibrator Motors</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="browse.php?c=1#start" class="main-menu browse-all">Browse all Electric Motor products</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
-        
-            <div class="item match-height has-submenu" submenu-target="pumps" style="height: 0px;">
 
-                <a href="javascript:void(0)"><img src="image/categories/pumps2.jpg" class="img-responsive"></a>
 
-                <a href="javascript:void(0)">Pumps</a>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="mobile-subtray" submenu-anchor="gear-reducers">
+                <h2>Product Browser</h2>
+                <div class="menu">
+                    <ul>
+                        <li class="subtray-back" parent-tray="mm-categories"><a href="javascript:void(0)" class="main-menu bb-dashed-ccc"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;back</a></li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="browse.php?c=2&amp;t=6#start" class="main-menu">Helical Gears</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="browse.php?c=2&amp;t=5#start" class="main-menu">Worm Gears</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="browse.php?c=2&amp;t=9#start" class="main-menu">Hypoid Gears</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="browse.php?c=2#start" class="main-menu browse-all">Browse all Gear Reducer products</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
-        
-            <div class="item match-height has-submenu" submenu-target="handling-equipments" style="height: 0px;">
-
-                <a href="javascript:void(0)"><img src="image/categories/handling.jpg" class="img-responsive"></a>
-
-                <a href="javascript:void(0)">Handling Equipments</a>
-
-            </div>
-
-        
-            <div class="item match-height has-submenu" submenu-target="inverters" style="height: 0px;">
-
-                <a href="javascript:void(0)"><img src="image/categories/invert.jpg" class="img-responsive"></a>
-
-                <a href="javascript:void(0)">Inverters</a>
-
-            </div>
-
-        
-            <div class="item match-height has-submenu" submenu-target="others" style="height: 0px;">
-
-                <a href="javascript:void(0)"><img src="image/categories/others.jpg" class="img-responsive"></a>
-
-                <a href="javascript:void(0)">Others</a>
-
-            </div>
-
-        
-    </div>
-
-
-
-    <style type="text/css">
-	.mobile-subtray .menu {
-		padding-bottom: 0px;
-	}
-	.mobile-subtray .menu > ul li a.main-menu {
-		color: #222;
-		font-size: 16px;
-		padding: 13px 15px;
-		display: block;
-		font-weight: 500;
-		text-transform: uppercase;
-		border-bottom: 1px dashed #ccc;
-	}
-	.mobile-subtray .menu > ul li ul li a {
-		font-size: 16px;
-	    font-weight: 400;
-	    display: block;
-	    line-height: 36px;
-	    padding: 0px 15px;
-	}
-	.mobile-subtray .menu > ul li.subtray-back a {
-		color: #ccc;
-		font-style: italic;
-	}
-	.browse-all {
-		border-bottom: 0px !important;
-	}
-</style>
-
-
-
-<div class="mobile-subtray" submenu-anchor="electric-motors">
-    <h2>Product Browser</h2>
-    <div class="menu">
-        <ul>
-            <li class="subtray-back" parent-tray="mm-categories"><a href="javascript:void(0)" class="main-menu bb-dashed-ccc"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;back</a></li>        </ul>
-    </div>
-    <div class="menu">
-        <ul>
-            <li>
-                <a href="browse.php?c=1&amp;t=1#start" class="main-menu bb-dashed-ccc">1 Phase Motors</a>
-            </li>
-        </ul>
-    </div>
-    <div class="menu">
-        <ul>
-            <li>
-                <a href="browse.php?c=1&amp;t=2#start" class="main-menu bb-dashed-ccc">3 Phase Motors</a>
-            </li>
-        </ul>
-    </div>
-    <div class="menu">
-        <ul>
-            <li>
-                <a href="browse.php?c=1&amp;t=3#start" class="main-menu bb-dashed-ccc">Brake Motors</a>
-            </li>
-        </ul>
-    </div>
-    <div class="menu">
-        <ul>
-            <li>
-                <a href="browse.php?c=1&amp;t=4#start" class="main-menu bb-dashed-ccc">Vibrator Motors</a>
-            </li>
-        </ul>
-    </div>
-    <div class="menu">
-        <ul>
-            <li>
-            	<a href="browse.php?c=1#start" class="main-menu browse-all">Browse all Electric Motor products</a>
-            </li>
-        </ul>
-    </div>
-</div>
 
 
 
@@ -2090,99 +1969,47 @@
 
 
 
-
-
-
-
-
-
-
-<div class="mobile-subtray" submenu-anchor="gear-reducers">
-    <h2>Product Browser</h2>
-    <div class="menu">
-        <ul>
-            <li class="subtray-back" parent-tray="mm-categories"><a href="javascript:void(0)" class="main-menu bb-dashed-ccc"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;back</a></li>        </ul>
-    </div>
-    <div class="menu">
-        <ul>
-            <li>
-                <a href="browse.php?c=2&amp;t=6#start" class="main-menu">Helical Gears</a>
-            </li>
-        </ul>
-    </div>
-    <div class="menu">
-        <ul>
-            <li>
-                <a href="browse.php?c=2&amp;t=5#start" class="main-menu">Worm Gears</a>
-            </li>
-        </ul>
-    </div>
-    <div class="menu">
-        <ul>
-            <li>
-                <a href="browse.php?c=2&amp;t=9#start" class="main-menu">Hypoid Gears</a>
-            </li>
-        </ul>
-    </div>
-    <div class="menu">
-        <ul>
-            <li>
-            	<a href="browse.php?c=2#start" class="main-menu browse-all">Browse all Gear Reducer products</a>
-            </li>
-        </ul>
-    </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-<!-----------------
+            <!-----------------
 -------------------
 CATEGORY 
 -------------------
 ------------------>
-<div class="mobile-subtray" submenu-anchor="handling-equipments">
-    <h2>Product Browser</h2>
-    <div class="menu">
-        <ul>
-            <li class="subtray-back" parent-tray="mm-categories"><a href="javascript:void(0)" class="main-menu bb-dashed-ccc"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;back</a></li>        </ul>
-    </div>
-    <div class="menu">
-        <ul>
-            <li>
-                <a href="browse.php?brand=bishamon#start" class="main-menu">Bishamon</a>
-            </li>
-        </ul>
-    </div>
-    <div class="menu">
-        <ul>
-            <li>
-                <a href="browse.php?brand=revco#start" class="main-menu">Revco</a>
-            </li>
-        </ul>
-    </div>
-    <div class="menu">
-        <ul>
-            <li>
-                <a href="browse.php?brand=prestar#start" class="main-menu">Prestar</a>
-            </li>
-        </ul>
-    </div>
-    <div class="menu">
-        <ul>
-            <li>
-            	<a href="browse.php?c=4#start" class="main-menu browse-all">Browse all Handling Equipment products</a>
-            </li>
-        </ul>
-    </div>
-</div>
+            <div class="mobile-subtray" submenu-anchor="handling-equipments">
+                <h2>Product Browser</h2>
+                <div class="menu">
+                    <ul>
+                        <li class="subtray-back" parent-tray="mm-categories"><a href="javascript:void(0)" class="main-menu bb-dashed-ccc"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;back</a></li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="browse.php?brand=bishamon#start" class="main-menu">Bishamon</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="browse.php?brand=revco#start" class="main-menu">Revco</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="browse.php?brand=prestar#start" class="main-menu">Prestar</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="browse.php?c=4#start" class="main-menu browse-all">Browse all Handling Equipment products</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
 
 
@@ -2194,95 +2021,35 @@ CATEGORY
 
 
 
-<div class="mobile-subtray" submenu-anchor="inverters">
-    <h2>Product Browser</h2>
-    <div class="menu">
-        <ul>
-            <li class="subtray-back" parent-tray="mm-categories"><a href="javascript:void(0)" class="main-menu bb-dashed-ccc"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;back</a></li>        </ul>
-    </div>
-    <div class="menu">
-        <ul>
-            <li>
-                <a href="browse.php?brand=delta#start" class="main-menu">Delta</a>
-            </li>
-        </ul>
-    </div>
-    <div class="menu">
-        <ul>
-            <li>
-                <a href="browse.php?brand=invt#start" class="main-menu">INVT</a>
-            </li>
-        </ul>
-    </div>
-    <div class="menu">
-        <ul>
-            <li>
-            	<a href="browse.php?c=3#start" class="main-menu browse-all">Browse all Inverter products</a>
-            </li>
-        </ul>
-    </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="mobile-subtray" submenu-anchor="pumps">
-    <h2>Product Browser</h2>
-    <div class="menu">
-        <ul>
-            <li class="subtray-back" parent-tray="mm-categories"><a href="javascript:void(0)" class="main-menu bb-dashed-ccc"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;back</a></li>        </ul>
-    </div>
-    <div class="menu">
-        <ul>
-            <li>
-                <a href="browse.php?t=7#start" class="main-menu">Gear Pumps</a>
-            </li>
-        </ul>
-    </div>
-    <div class="menu">
-        <ul>
-            <li>
-                <a href="browse.php?c=5&amp;t=8#start" class="main-menu">Fill Pumps</a>
-            </li>
-        </ul>
-    </div>
-    <div class="menu">
-        <ul>
-            <li>
-                <a href="browse.php?c=5&amp;t=11#start" class="main-menu">Multi Stage Pumps</a>
-            </li>
-        </ul>
-    </div>
-    <div class="menu">
-        <ul>
-            <li>
-                <a href="browse.php?c=5&amp;t=10#start" class="main-menu">Centrifugal Pumps</a>
-            </li>
-        </ul>
-    </div>
-    <div class="menu">
-        <ul>
-            <li>
-                <a href="browse.php?c=5&amp;t=12#start" class="main-menu">Vacuum Pump</a>
-            </li>
-        </ul>
-    </div>
-    <div class="menu">
-        <ul>
-            <li>
-            	<a href="browse.php?c=5#start" class="main-menu browse-all">Browse all Pump products</a>
-            </li>
-        </ul>
-    </div>
-</div>
+            <div class="mobile-subtray" submenu-anchor="inverters">
+                <h2>Product Browser</h2>
+                <div class="menu">
+                    <ul>
+                        <li class="subtray-back" parent-tray="mm-categories"><a href="javascript:void(0)" class="main-menu bb-dashed-ccc"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;back</a></li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="browse.php?brand=delta#start" class="main-menu">Delta</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="browse.php?brand=invt#start" class="main-menu">INVT</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="browse.php?c=3#start" class="main-menu browse-all">Browse all Inverter products</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
 
 
@@ -2295,248 +2062,311 @@ CATEGORY
 
 
 
+            <div class="mobile-subtray" submenu-anchor="pumps">
+                <h2>Product Browser</h2>
+                <div class="menu">
+                    <ul>
+                        <li class="subtray-back" parent-tray="mm-categories"><a href="javascript:void(0)" class="main-menu bb-dashed-ccc"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;back</a></li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="browse.php?t=7#start" class="main-menu">Gear Pumps</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="browse.php?c=5&amp;t=8#start" class="main-menu">Fill Pumps</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="browse.php?c=5&amp;t=11#start" class="main-menu">Multi Stage Pumps</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="browse.php?c=5&amp;t=10#start" class="main-menu">Centrifugal Pumps</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="browse.php?c=5&amp;t=12#start" class="main-menu">Vacuum Pump</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="browse.php?c=5#start" class="main-menu browse-all">Browse all Pump products</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
 
-<div class="mobile-subtray" submenu-anchor="others">
-    <h2>Product Browser</h2>
-    <div class="menu">
-        <ul>
-            <li class="subtray-back" parent-tray="mm-categories"><a href="javascript:void(0)" class="main-menu bb-dashed-ccc"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;back</a></li>        </ul>
-    </div>
-    <div class="menu">
-        <ul>
-            <li>
-                <a href="view.php?id=68" class="main-menu">Motor Cooling Fan</a>
-            </li>
-        </ul>
-    </div>
-    <div class="menu">
-        <ul>
-            <li>
-                <a href="browse.php?c=6#start" class="main-menu">DC Brake</a>
-            </li>
-        </ul>
-    </div>
-    <div class="menu">
-        <ul>
-            <li>
-                <a href="browse.php?c=6#start" class="main-menu">Couplings</a>
-            </li>
-        </ul>
-    </div>
-    <div class="menu">
-        <ul>
-            <li>
-            	<a href="browse.php?c=6#start" class="main-menu browse-all">Browse all Others products</a>
-            </li>
-        </ul>
-    </div>
-</div>
 
 
 
 
-    <!-- mobile menu -->
 
-    <div class="mobile-tray visible-xs " id="mm-brands" style="">
 
-        <h2>Product Brands</h2>
 
-        
-        
-            <div class="item match-height" style="height: 0px;">
 
-                <a href="browse.php?brand=yuema#start"><img src="image/partner1.png" class="img-responsive"></a>
+
+
+
+
+            <div class="mobile-subtray" submenu-anchor="others">
+                <h2>Product Browser</h2>
+                <div class="menu">
+                    <ul>
+                        <li class="subtray-back" parent-tray="mm-categories"><a href="javascript:void(0)" class="main-menu bb-dashed-ccc"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;back</a></li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="view.php?id=68" class="main-menu">Motor Cooling Fan</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="browse.php?c=6#start" class="main-menu">DC Brake</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="browse.php?c=6#start" class="main-menu">Couplings</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="browse.php?c=6#start" class="main-menu browse-all">Browse all Others products</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+            <!-- mobile menu -->
+
+            <div class="mobile-tray visible-xs " id="mm-brands" style="">
+
+                <h2>Product Brands</h2>
+
+
+
+                <div class="item match-height" style="height: 0px;">
+
+                    <a href="browse.php?brand=yuema#start"><img src="image/partner1.png" class="img-responsive"></a>
+
+                </div>
+
+
+                <div class="item match-height" style="height: 0px;">
+
+                    <a href="browse.php?brand=revco#start"><img src="image/partner5.png" class="img-responsive"></a>
+
+                </div>
+
+
+                <div class="item match-height" style="height: 0px;">
+
+                    <a href="browse.php?brand=elektrim-cantoni#start"><img src="image/partner2.png" class="img-responsive"></a>
+
+                </div>
+
+
+                <div class="item match-height" style="height: 0px;">
+
+                    <a href="browse.php?brand=transmax#start"><img src="image/partner3.png" class="img-responsive"></a>
+
+                </div>
+
+
+                <div class="item match-height" style="height: 0px;">
+
+                    <a href="browse.php?brand=southern-cross#start"><img src="image/partner6.png" class="img-responsive"></a>
+
+                </div>
+
+
+                <div class="item match-height" style="height: 0px;">
+
+                    <a href="browse.php?brand=quantum#start"><img src="image/partner7.png" class="img-responsive"></a>
+
+                </div>
+
+
+                <div class="item match-height" style="height: 0px;">
+
+                    <a href="browse.php?brand=prestar#start"><img src="image/partner8.png" class="img-responsive"></a>
+
+                </div>
+
+
+                <div class="item match-height" style="height: 0px;">
+
+                    <a href="browse.php?brand=delta#start"><img src="image/partner13.png" class="img-responsive"></a>
+
+                </div>
+
+
+                <div class="item match-height" style="height: 0px;">
+
+                    <a href="browse.php?brand=oriental-koshin#start"><img src="image/partner12.png" class="img-responsive"></a>
+
+                </div>
+
+
+                <div class="item match-height" style="height: 0px;">
+
+                    <a href="browse.php?brand=speck#start"><img src="image/partner4.png" class="img-responsive"></a>
+
+                </div>
+
+
+                <div class="item match-height" style="height: 0px;">
+
+                    <a href="browse.php?brand=sihi#start"><img src="image/partner14.png" class="img-responsive"></a>
+
+                </div>
+
+
+                <div class="item match-height" style="height: 0px;">
+
+                    <a href="browse.php?brand=bishamon#start"><img src="image/partner11.png" class="img-responsive"></a>
+
+                </div>
+
+
+                <div class="item match-height" style="height: 0px;">
+
+                    <a href="browse.php?brand=invt#start"><img src="image/partner16.png" class="img-responsive"></a>
+
+                </div>
+
+
+                <div class="item match-height" style="height: 0px;">
+
+                    <a href="browse.php?brand=teco#start"><img src="image/partner17.png" class="img-responsive"></a>
+
+                </div>
+
 
             </div>
 
-        
-            <div class="item match-height" style="height: 0px;">
 
-                <a href="browse.php?brand=revco#start"><img src="image/partner5.png" class="img-responsive"></a>
 
-            </div>
+            <!-- mobile menu -->
 
-        
-            <div class="item match-height" style="height: 0px;">
+            <div class="mobile-tray visible-xs " id="mm-about">
 
-                <a href="browse.php?brand=elektrim-cantoni#start"><img src="image/partner2.png" class="img-responsive"></a>
+                <h2>More Information</h2>
 
-            </div>
+                <div class="item">
 
-        
-            <div class="item match-height" style="height: 0px;">
+                    <a href="index.php">
 
-                <a href="browse.php?brand=transmax#start"><img src="image/partner3.png" class="img-responsive"></a>
+                        Home
 
-            </div>
+                    </a>
 
-        
-            <div class="item match-height" style="height: 0px;">
+                </div>
 
-                <a href="browse.php?brand=southern-cross#start"><img src="image/partner6.png" class="img-responsive"></a>
+                <div class="item">
 
-            </div>
+                    <a href="about.php">
 
-        
-            <div class="item match-height" style="height: 0px;">
+                        About Us
 
-                <a href="browse.php?brand=quantum#start"><img src="image/partner7.png" class="img-responsive"></a>
+                    </a>
 
-            </div>
+                </div>
 
-        
-            <div class="item match-height" style="height: 0px;">
+                <div class="item">
 
-                <a href="browse.php?brand=prestar#start"><img src="image/partner8.png" class="img-responsive"></a>
+                    <a href="browse.php">
 
-            </div>
+                        Our Products
 
-        
-            <div class="item match-height" style="height: 0px;">
+                    </a>
 
-                <a href="browse.php?brand=delta#start"><img src="image/partner13.png" class="img-responsive"></a>
+                </div>
 
-            </div>
+                <div class="item">
 
-        
-            <div class="item match-height" style="height: 0px;">
+                    <a href="brands.php">
 
-                <a href="browse.php?brand=oriental-koshin#start"><img src="image/partner12.png" class="img-responsive"></a>
+                        Our Brands
 
-            </div>
+                    </a>
 
-        
-            <div class="item match-height" style="height: 0px;">
+                </div>
 
-                <a href="browse.php?brand=speck#start"><img src="image/partner4.png" class="img-responsive"></a>
+                <div class="item">
 
-            </div>
+                    <a href="rfq.php">
 
-        
-            <div class="item match-height" style="height: 0px;">
+                        Request For Quotation
 
-                <a href="browse.php?brand=sihi#start"><img src="image/partner14.png" class="img-responsive"></a>
+                    </a>
 
-            </div>
+                </div>
 
-        
-            <div class="item match-height" style="height: 0px;">
+                <div class="item">
 
-                <a href="browse.php?brand=bishamon#start"><img src="image/partner11.png" class="img-responsive"></a>
+                    <a href="#" data-toggle="modal" data-target="#contact-us">
+
+                        Contact Us
+
+                    </a>
+
+                </div>
 
             </div>
 
-        
-            <div class="item match-height" style="height: 0px;">
-
-                <a href="browse.php?brand=invt#start"><img src="image/partner16.png" class="img-responsive"></a>
-
-            </div>
-
-        
-            <div class="item match-height" style="height: 0px;">
-
-                <a href="browse.php?brand=teco#start"><img src="image/partner17.png" class="img-responsive"></a>
-
-            </div>
-
-        
-    </div>
 
 
+            <!-- mobile menu -->
 
-    <!-- mobile menu -->
+            <div class="mobile-tray visible-xs " id="mm-search">
 
-    <div class="mobile-tray visible-xs " id="mm-about">
+                <h2>Search</h2>
 
-        <h2>More Information</h2>
+                <form method="get" action="browse.php#start">
 
-        <div class="item">
+                    <div id="search0" class="search input-group form-group">
 
-            <a href="index.php">
+                        <input class="form-control mobile-search" type="text" value="" size="50" autocomplete="off" placeholder="Yuema gears..." name="search" required="">
 
-                Home
+                    </div>
 
-            </a>
-
-        </div>
-
-        <div class="item">
-
-            <a href="about.php">
-
-                About Us
-
-            </a>
-
-        </div>
-
-        <div class="item">
-
-            <a href="browse.php">
-
-                Our Products
-
-            </a>
-
-        </div>
-
-        <div class="item">
-
-            <a href="brands.php">
-
-                Our Brands
-
-            </a>
-
-        </div>
-
-        <div class="item">
-
-            <a href="rfq.php">
-
-                Request For Quotation
-
-            </a>
-
-        </div>
-
-        <div class="item">
-
-            <a href="#" data-toggle="modal" data-target="#contact-us">
-
-                Contact Us
-
-            </a>
-
-        </div>
-
-    </div>
-
-
-
-    <!-- mobile menu -->
-
-    <div class="mobile-tray visible-xs " id="mm-search">
-
-        <h2>Search</h2>
-
-        <form method="get" action="browse.php#start">
-
-            <div id="search0" class="search input-group form-group">
-
-                <input class="form-control mobile-search" type="text" value="" size="50" autocomplete="off" placeholder="Yuema gears..." name="search" required="">
+                </form>
 
             </div>
 
-        </form>
-
-    </div>
 
 
-
-</footer>
+        </footer>
 
         <!-- //end Footer Container
 
@@ -2583,28 +2413,28 @@ CATEGORY
         <script type="text/javascript" src="js/themejs/addtocart.js"></script>
 
         <script type="text/javascript">
-            $(document).ready(function () {
+            $(document).ready(function() {
 
                 $('.focus-on-load').focus();
 
                 // overlay on main category menu
                 $(".overlay-trigger").hover(
-                    function () {
+                    function() {
                         $('.overlay-x').addClass('active');
                     },
-                    function () {
+                    function() {
                         $('.overlay-x').removeClass('active');
                     }
                 );
 
-                $('.modal').on('shown.bs.modal', function () {
+                $('.modal').on('shown.bs.modal', function() {
                     $(this).find('#first-focus').focus();
                 })
 
                 $('.match-height').matchHeight();
 
                 // request for quotation
-                $('.rfq-select').change(function () {
+                $('.rfq-select').change(function() {
 
                     // get target product id and establish some vars
                     var productId = $(this).val();
@@ -2615,7 +2445,7 @@ CATEGORY
                     // first show the white box and loader animation
                     $('.product-preview').removeClass('inactive').html(
                         '<div class="row"><div class="col-xs-12"><img src="image/dual.svg"></div></div>'
-                        );
+                    );
 
                     // if select none
                     if (productId == 0) {
@@ -2629,12 +2459,12 @@ CATEGORY
                         // output
                         $.post("crud/product.php?v=rfq", {
                             Form: Form
-                        }).done(function (data) {
+                        }).done(function(data) {
                             $('.product-preview').html(data);
                         });
                         $.post("crud/product.php?v=rfq-msg", {
                             Form: Form
-                        }).done(function (dataMsg) {
+                        }).done(function(dataMsg) {
                             $('.rfq-msg').val(dataMsg).focus();
                         });
                     }
@@ -2645,7 +2475,7 @@ CATEGORY
 
 
         <script type="text/javascript">
-            $(document).ready(function () {
+            $(document).ready(function() {
 
                 function bodySetScroll() {
                     // toggle no-scroll class on body
@@ -2664,7 +2494,7 @@ CATEGORY
                 }
 
                 // mobile tray menus
-                $('.mobile-bottom .part').on('click', function () {
+                $('.mobile-bottom .part').on('click', function() {
 
                     // close all trays
                     closeAllTrays();
@@ -2701,7 +2531,7 @@ CATEGORY
 
                 // mobile tray submenus
                 // 31 Aug 2019
-                $('.mobile-tray .has-submenu').on('click', function () {
+                $('.mobile-tray .has-submenu').on('click', function() {
 
                     var submenuTarget = $(this).attr('submenu-target');
 
@@ -2714,7 +2544,7 @@ CATEGORY
 
                 // mobile tray submenus back
                 // 31 Aug 2019
-                $('.subtray-back').on('click', function () {
+                $('.subtray-back').on('click', function() {
 
                     var parentmenuTarget = $(this).attr('parent-tray');
 

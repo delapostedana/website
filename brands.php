@@ -907,25 +907,270 @@
 
         <!-- Main Container  -->
 
-        <div class="col-md-12 text-center pt-50">
+        <div class="main-container container mt-50">
 
-            <hr class="spacer s">
 
-            <h1 class="rri-h2 rri-black">About PT. Roda Rollen Indonesia</h1>
-
-            <hr class="border-red-10">
 
             <div class="row">
 
-                <div class="col-md-8 center-block">
+                <div id="content" class="col-sm-12">
 
-                    <p>PT RODA ROLLEN INDONESIA is a supplier for Mechanical dan Electrical engineering products for modern general industries. The company was established in 1998 and since then has become a stockist and representatives agents for many leading brands in industrial engineering from around the world. </p>
+
+
+                    <div class="about-us about-demo-2">
+
+                        <div class="row">
+
+                            <div class="col-lg-12 col-md-12">
+
+
+
+                                <div class="row">
+
+                                    <div class="col-md-12 text-center">
+
+                                        <hr class="spacer s">
+
+                                        <h1 class="rri-h2 rri-black">Our Own Brands</h1>
+
+                                        <hr class="border-red-10">
+
+                                        <div class="row">
+
+                                            <div class="col-md-8 center-block">
+
+                                                <p>We carry our own brand with reliable quality that can be trusted with competitive prices.</p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="row">
+
+                                    <div class="col-md-12 center-block">
+
+                                        <div class="row">
+
+
+
+                                            <hr class="spacer m">
+
+
+
+                                            <div class="col-md-1  hidden-xs"></div>
+
+
+
+                                            <div class="col-md-2 col-xs-4 partner">
+
+                                                <a href="browse.php?brand=yuema"><img src="image/partner1.png" class="img-responsive"></a>
+
+                                            </div>
+
+                                            <div class="col-md-2 col-xs-4 partner">
+
+                                                <a href="browse.php?brand=transmax"><img src="image/partner3.png" class="img-responsive"></a>
+
+                                            </div>
+
+                                            <div class="col-md-2 col-xs-4 partner">
+
+                                                <a href="browse.php?brand=revco"><img src="image/partner5.png" class="img-responsive"></a>
+
+                                            </div>
+
+
+
+
+
+                                            <div class="col-md-2 col-xs-4 partner">
+
+                                                <a href="browse.php?brand=yuema"><img src="image/partner10.png" class="img-responsive"></a>
+
+                                            </div>
+
+
+
+                                            <div class="col-md-2 col-xs-4 partner">
+
+                                                <a href="browse.php?brand=revco"><img src="image/partner15.png" class="img-responsive"></a>
+
+                                            </div>
+
+
+
+                                        </div>
+
+
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="row">
+
+                                    <hr class="spacer 2">
+
+                                    <hr class="spacer l">
+
+                                </div>
+
+
+
+                                <div class="row">
+
+                                    <div class="col-md-12 text-center">
+
+                                        <hr class="spacer s">
+
+                                        <h1 class="rri-h2 rri-black">We Are Trusted By</h1>
+
+                                        <hr class="border-red-10">
+
+                                        <div class="row">
+
+                                            <div class="col-md-8 center-block">
+
+                                                <p>Here are the list of brands and partners that have trusted PT. Roda Rollen Indonesia as their stockist and representative agent in Indonesia.</p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="row">
+
+                                    <div class="col-md-12 center-block">
+
+                                        <div class="row">
+
+
+
+                                            <hr class="spacer m">
+
+                                            <div class="col-md-2 col-xs-4 partner">
+
+                                                <a href="browse.php?brand=elektrim-cantoni"><img src="image/partner2.png" class="img-responsive"></a>
+
+                                            </div>
+
+                                            <div class="col-md-2 col-xs-4 partner">
+
+                                                <a href="browse.php?brand=speck"><img src="image/partner4.png" class="img-responsive"></a>
+
+                                            </div>
+
+
+
+                                            <div class="col-md-2 col-xs-4 partner">
+
+                                                <a href="browse.php?brand=southern-cross"><img src="image/partner6.png" class="img-responsive"></a>
+
+                                            </div>
+
+                                            <div class="col-md-2 col-xs-4 partner">
+
+                                                <a href="browse.php?brand=quantum"><img src="image/partner7.png" class="img-responsive"></a>
+
+                                            </div>
+
+                                            <div class="col-md-2 col-xs-4 partner">
+
+                                                <a href="browse.php?brand=prestar"><img src="image/partner8.png" class="img-responsive"></a>
+
+                                            </div>
+
+                                            <div class="col-md-2 col-xs-4 partner">
+
+                                                <a href="browse.php?brand=bishamon"><img src="image/partner11.png" class="img-responsive"></a>
+
+                                            </div>
+
+
+
+
+
+
+                                            <div class="col-md-2 col-xs-4 partner ">
+
+                                                <a href="browse.php?brand=oriental-koshin"><img src="image/partner12.png" class="img-responsive"></a>
+
+                                            </div>
+
+
+
+                                            <div class="col-md-2 col-xs-4 partner ">
+
+                                                <a href="browse.php?brand=delta"><img src="image/partner13.png" class="img-responsive"></a>
+
+                                            </div>
+
+
+
+                                            <div class="col-md-2 col-xs-4 partner">
+
+                                                <a href="browse.php?brand=sihi"><img src="image/partner14.png" class="img-responsive"></a>
+
+                                            </div>
+
+                                            <div class="col-md-2 col-xs-4 partner">
+
+                                                <a href="browse.php?brand=invt"><img src="image/partner16.png" class="img-responsive"></a>
+
+                                            </div>
+
+                                            <div class="col-md-2 col-xs-4 partner">
+
+                                                <a href="browse.php?brand=teco"><img src="image/partner17.png" class="img-responsive"></a>
+
+                                            </div>
+
+
+
+
+
+                                        </div>
+
+
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="row">
+
+                                    <hr class="spacer l">
+
+                                </div>
+
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
 
                 </div>
 
             </div>
-
-            <img src="image/indonesia.svg" class="img-responsive">
 
         </div>
 
@@ -2008,7 +2253,7 @@ CATEGORY
 
     
 
-Include Libs & Plugins
+<!-- Include Libs & Plugins
 ============================================ -->
         <!-- Placed at the end of the document so the pages load faster -->
         <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
